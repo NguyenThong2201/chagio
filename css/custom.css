@@ -1,0 +1,15 @@
+li {
+  list-style: none;
+}
+.woww li{
+  margin-left: 5px;
+  color: #4caf50;
+  line-height: 28px;
+}
+.woww li a:hover{
+  color: #4caf50 ! important;
+  margin-left: 6px;
+}
+.woww li span{
+  margin-right: 10px;
+}
