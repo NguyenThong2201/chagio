@@ -270,7 +270,7 @@ label.of {
     margin-top: -26px;
     position: absolute;
     top: 37px;
-    left: 366px;
+    left: 327px;
     background: #303030;
 }
 label.on{
@@ -280,11 +280,11 @@ label.on{
     margin-top: -26px;
     position: absolute;
     top: 37px;
-    left: 690px;
+    left: 726px;
 }
 /*--banner--*/
 .banner{
-background: url(../images/banner.jpg) no-repeat 0px 0px;
+background: url(../images/banner2.jpg) no-repeat 0px 0px;
 background-size:cover;
 -webkit-background-size: cover;
 -o-background-size: cover;
@@ -293,7 +293,7 @@ background-size:cover;
 min-height: 600px;
 }
 .banner-1{
-background: url(../images/banner-1.jpg) no-repeat 0px 0px;
+background: url(../images/banner2.jpg) no-repeat 0px 0px;
 background-size:cover;
 -webkit-background-size: cover;
 -o-background-size: cover;
@@ -323,7 +323,7 @@ min-height: 250px;
 }
 .banner p {
     font-size: 1.2em;
-    color: rgba(255, 255, 255, 0.46);
+    color: #ffff;
     font-weight: 400;
     line-height: 1.8em;
     margin: 1em auto 2em;
@@ -1650,9 +1650,11 @@ span.glyphicon.glyphicon-comment, span.glyphicon.glyphicon-eye-open, span.glyphi
     margin-right: 0em;
 }
 label.of {
+    display: none;
     left: 267px;
 }
 label.on {
+    display: none;
     left: 586px
 }
 .banner p {
@@ -1760,9 +1762,11 @@ p.sub {
     padding: 10px 6px;
 }
 label.of {
+    display: none;
     left: 160px;
 }
 label.on {
+    display: none;
     left: 475px;
 }
 .banner h2 {
@@ -1990,9 +1994,11 @@ label.icon-search span {
     top: -3px;
 }
 label.of {
+    display: none;
     left: 143px;
 }
 label.on {
+    display: none;
     left: 462px;
 }
 .team-grid1 .p-mask {
@@ -2011,9 +2017,11 @@ label.on {
     font-size: 13px;
 }
 label.of {
+    display: none;
     left: 116px;
 }
 label.on {
+    display: none;
     left: 418px;
 }
 .banner h2 {
@@ -2037,9 +2045,11 @@ abel.icon-search span {
     min-height: 380px;
 }
 label.of {
+    display: none;
     left: 102px;
 }
 label.on {
+    display: none;
     left: 406px;
 }
 .search-1 input[type="search"] {
@@ -2055,9 +2065,11 @@ label.on {
     font-size: 1.5em;
 }
 label.of {
+    display: none;
     left: 80px;
 }
 label.on {
+    display: none;
     left: 386px;
 }
 .search-1 input[type="search"] {
@@ -2070,9 +2082,11 @@ label.on {
 /*-- responsive design --*/
 @media (max-width:568px) {
 label.of {
+    display: none;
     left: 64px;
 }
 label.on {
+    display: none;
     left: 370px;
 }
 .banner h2 {
@@ -2094,9 +2108,11 @@ label.on {
     font-size: 1em;
 }
 label.of {
+    display: none;
     left: 21px;
 }
 label.on {
+    display: none;
     left: 326px;
 }
 .banner h2 {
@@ -2180,10 +2196,12 @@ label.on {
     font-size: 0.8em;
 }
 label.of {
+    display: none;
     width: 50px;
     left: 26px;
 }
 label.on {
+    display: none;
     left: 292px;
 	width: 50px;
 }
@@ -2251,10 +2269,12 @@ label.icon-search span {
     font-size: 12px;
 }
 label.of {
+    display: none;
     margin-top: -28px;
     left:23
 }
 label.on {
+    display: none;
     left: 266px;
 	 margin-top: -28px;
 }
@@ -2300,9 +2320,11 @@ label.on {
 /*-- responsive design --*/
 @media (max-width:375px) {
 label.of {
+    display: none;
     left: 18px;
 }
 label.on {
+    display: none;
     left: 260px;
 }
 .head-left {
@@ -2324,10 +2346,12 @@ label.on {
     font-size: 0.857em;
 }
 label.of {
+    display: none;
     left: 0;
 	width:42px;
 }
 label.on {
+    display: none;
     left: 235px;
 	width:42px;
 }

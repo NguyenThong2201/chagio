@@ -1,6 +1,6 @@
 <div class="banner">
     <div class="container"> 
-        <h2>suachuadiennuoc.com</h2>
+        <h2>diennuocdatduong.com</h2>
         <p>Xin chào bạn đến với suachuadiennuoc.com Công ty chuyên dịch vụ kỹ thuật, sửa chữa điện nước nhà ở, căn hộ, trường học, chung cư, văn phòng, cao ốc... tại TPHCM. Khi bạn có nhu cầu hãy alo suachuadiennuoc.com - 0977970263 đội thợ sẽ phục vụ các quận TPHCM.</p>
         <a href="singlepage.html">Xem dịch vụ của chúng tôi</a>
     </div>
@@ -10,9 +10,9 @@
             <div class="grid_3 grid_5">
                 <div class="bs-example bs-example-tabs" role="tabpanel" data-example-id="togglable-tabs">
                     <ul id="myTab" class="nav nav-tabs" role="tablist">
-                        <li role="presentation" class="active"><a href="#expeditions" id="expeditions-tab" role="tab" data-toggle="tab" aria-controls="expeditions" aria-expanded="true">DỊCH VỤ ĐIỆN</a></li>
-                        <li role="presentation" class=""><a href="#safari" role="tab" id="safari-tab" data-toggle="tab" aria-controls="safari">DỊCH VỤ NƯỚC</a></li>
-                        <li role="presentation" class=""><a href="#trekking" role="tab" id="trekking-tab" data-toggle="tab" aria-controls="trekking">DỊCH VỤ VIỄN THÔNG</a></li>
+                        <li role="presentation" class="active"><a href="#expeditions" id="expeditions-tab" role="tab" data-toggle="tab" aria-controls="expeditions" aria-expanded="true">DV ĐIỆN-NƯỚC</a></li>
+                        <li role="presentation" class=""><a href="#safari" role="tab" id="safari-tab" data-toggle="tab" aria-controls="safari">DV BẢNG HIỆU QUẢNG CÁO</a></li>
+                        <li role="presentation" class=""><a href="#trekking" role="tab" id="trekking-tab" data-toggle="tab" aria-controls="trekking">DV TRẦN THẠCH CAO</a></li>
                     </ul>
                     <div id="myTabContent" class="tab-content wow">
                         <div role="tabpanel" class="tab-pane fade active in" id="expeditions" aria-labelledby="expeditions-tab">
@@ -22,9 +22,9 @@
                             <div class="col-md-8">
                                 <div class="alert alert-success" role="alert">
                                     <ul>
-                                       <li><strong><i>diennuoc.com Chuyên nhận thiết kế, thi công hệ thống các loại điện</i></strong></li>
-                                       <li><span class="glyphicon glyphicon-heart" aria-hidden="true"></span> Nhận xứ lí sự cố hệ thống điện trong nhà nhanh nhất.</li>
-                                       <li><span class="glyphicon glyphicon-ok" aria-hidden="true"></span> Nhận thiết kế, xây dựng điện công trình uy tín chất lượng.</li>
+                                       <li><strong><i>diennuocdatduong.com Chuyên nhận sửa chữa, thiết kế, thi công hệ thống các loại điện nước tại TP.HỒ CHI MINH</i></strong></li>
+                                       <li><span class="glyphicon glyphicon-heart" aria-hidden="true"></span> Nhận xứ lí gấp các sự cố hệ thống điện-nước trong nhà nhanh nhất.</li>
+                                       <li><span class="glyphicon glyphicon-ok" aria-hidden="true"></span> Nhận sửa chữa, thay thế các thiết bị điện nước hộ gia đình, chung cư, trường học...</li>
                                        <li><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span> Nhận thiết kế, xây dựng điện nhà ở uy tín chất lượng.</li>
                                        <li><span class="glyphicon glyphicon-send" aria-hidden="true"></span> Nhận thiết kế, xây dựng hệ thống điện thông minh cao cấp uy tín chất lượng.</li>
                                        <li><span class="glyphicon glyphicon-repeat" aria-hidden="true"></span> Với đội ngủ nhân viên lâu năm kinh nghiệm, chúng tôi sẽ cổ gắng đáp ứng đủ yêu cầu của khách hàng.</li>

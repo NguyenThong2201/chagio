@@ -55,8 +55,8 @@
 <div class="header-bottom">
     <div class="container">
         <div class="logo wow fadeInDown"  data-wow-duration=".8s" data-wow-delay=".2s">
-            <h1><a href="index.html">STYLE BLOG</a></h1>
-            <p><label class="of"></label>CHUYÊN SỬA CHỮA ĐIỆN NƯỚC<label class="on"></label></p>
+            <h1><a href="/home">ĐẠT DƯƠNG</a></h1>
+            <p><label class="of"></label>CHUYÊN THI CÔNG, SỬA CHỮA ĐIỆN NƯỚC<label class="on"></label></p>
         </div>
     </div>
 </div>
