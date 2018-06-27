@@ -10,8 +10,8 @@
             <h5>DỊCH VỤ CỦA CHÚNG TÔI</h5>
             <div class="blog-grids woww fadeInDown"  data-wow-duration=".8s" data-wow-delay=".2s">
                 <ul>
+                    <li><a href="#"><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span>Chuyên sửa chữa, xứ lí sự cổ điện nước tại nhà</a></li>
                     <li><a href="#"><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span>Nhận thiết kể, thi công các công trình điện nước</a></li>
-                    <li><a href="#"><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span>Chuyên sửa điện nước tại nhà</a></li>
                     <li><a href="#"><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span>Chuyên sửa chữ điện công nghiệp</a></li>
                     <li><a href="#"><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span>Nhận thi công hệ thống điện thông minh trong nhà</a></li>
                     <li><a href="#"><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span>Sửa máy giặt tại nhà</a></li>

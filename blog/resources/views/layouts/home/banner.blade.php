@@ -1,7 +1,7 @@
 <div class="banner">
     <div class="container"> 
         <h2>diennuocdatduong.com</h2>
-        <p>Xin chào bạn đến với suachuadiennuoc.com Công ty chuyên dịch vụ kỹ thuật, sửa chữa điện nước nhà ở, căn hộ, trường học, chung cư, văn phòng, cao ốc... tại TPHCM. Khi bạn có nhu cầu hãy alo suachuadiennuoc.com - 0977970263 đội thợ sẽ phục vụ các quận TPHCM.</p>
+        <p>Xin chào bạn đến với suachuadiennuoc.com Công ty chuyên dịch vụ kỹ thuật, sửa chữa điện nước nhà ở, căn hộ, trường học, chung cư, văn phòng, cao ốc... tại TPHCM. Khi bạn có nhu cầu hãy alo suachuadiennuoc.com - 0984250265 hoặc 01219146141 đội thợ sẽ phục vụ các quận TPHCM.</p>
         <a href="singlepage.html">Xem dịch vụ của chúng tôi</a>
     </div>
 </div>
@@ -17,17 +17,14 @@
                     <div id="myTabContent" class="tab-content wow">
                         <div role="tabpanel" class="tab-pane fade active in" id="expeditions" aria-labelledby="expeditions-tab">
                             <div class="col-md-4">
-                                <img src="page/images/f2.jpg" class="img-responsive" alt="Wanderer">
+                                <img src="page/images/dien.jpg" class="img-responsive" alt="Wanderer">
                             </div>
                             <div class="col-md-8">
                                 <div class="alert alert-success" role="alert">
                                     <ul>
-                                       <li><strong><i>diennuocdatduong.com Chuyên nhận sửa chữa, thiết kế, thi công hệ thống các loại điện nước tại TP.HỒ CHI MINH</i></strong></li>
-                                       <li><span class="glyphicon glyphicon-heart" aria-hidden="true"></span> Nhận xứ lí gấp các sự cố hệ thống điện-nước trong nhà nhanh nhất.</li>
-                                       <li><span class="glyphicon glyphicon-ok" aria-hidden="true"></span> Nhận sửa chữa, thay thế các thiết bị điện nước hộ gia đình, chung cư, trường học...</li>
-                                       <li><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span> Nhận thiết kế, xây dựng điện nhà ở uy tín chất lượng.</li>
-                                       <li><span class="glyphicon glyphicon-send" aria-hidden="true"></span> Nhận thiết kế, xây dựng hệ thống điện thông minh cao cấp uy tín chất lượng.</li>
-                                       <li><span class="glyphicon glyphicon-repeat" aria-hidden="true"></span> Với đội ngủ nhân viên lâu năm kinh nghiệm, chúng tôi sẽ cổ gắng đáp ứng đủ yêu cầu của khách hàng.</li>
+                                       <li><strong><i><h1>diennuocdatduong.com 0984250265</h1></i></strong></li>
+                                       <li class="mgnT20"><h3><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span> Nhận xứ lí, sửa chữa gấp các sự cổ hệ thống điện-nước  nhà ở, căn hộ, chung cư, trường học... nhanh nhất.</h3></li>
+                                       <li class="mgnT15"><h3><span class="glyphicon glyphicon-ok" aria-hidden="true"></span> Nhận thiết kế, xây dựng điện nước và hệ thống điện thông minh uy tín chất lượng.</h3></li>
                                     </ul>
                                 </div>
                             </div>
@@ -35,17 +32,14 @@
                         </div>
                         <div role="tabpanel" class="tab-pane fade" id="safari" aria-labelledby="safari-tab">
                             <div class="col-md-4">
-                                <img src="page/images/t1.jpg" class="img-responsive" alt="Wanderer">
+                                <img src="page/images/thachcao.jpg" class="img-responsive" alt="Wanderer">
                             </div>
                             <div class="col-md-8">
                                 <div class="alert alert-info" role="alert">
                                     <ul>
-                                       <li><strong><i>diennuoc.com Chuyên nhận thiết kế, thi công hệ thống các loại điện</i></strong></li>
-                                       <li><span class="glyphicon glyphicon-heart" aria-hidden="true"></span> Nhận xứ lí sự cố hệ thống điện trong nhà nhanh nhất.</li>
-                                       <li><span class="glyphicon glyphicon-ok" aria-hidden="true"></span> Nhận thiết kế, xây dựng điện công trình uy tín chất lượng.</li>
-                                       <li><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span> Nhận thiết kế, xây dựng điện nhà ở uy tín chất lượng.</li>
-                                       <li><span class="glyphicon glyphicon-send" aria-hidden="true"></span> Nhận thiết kế, xây dựng hệ thống điện thông minh cao cấp uy tín chất lượng.</li>
-                                       <li><span class="glyphicon glyphicon-repeat" aria-hidden="true"></span> Với đội ngủ nhân viên lâu năm kinh nghiệm, chúng tôi sẽ cổ gắng đáp ứng đủ yêu cầu của khách hàng.</li>
+                                       <li><strong><i><h1>diennuocdatduong.com 0984250265</h1></i></strong></li>
+                                       <li class="mgnT20"><h3><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span> Nhận xứ lí, sửa chữa gấp các sự cổ trần thạch cao nhà ở, căn hộ, chung cư, trường học... nhanh nhất.</h3></li>
+                                       <li class="mgnT15"><h3><span class="glyphicon glyphicon-ok" aria-hidden="true"></span>Nhận thiết kế, xây dựng trần thạch cao uy tín chất lượng.</h3></li>
                                     </ul>
                                 </div>
                             </div>
@@ -53,17 +47,14 @@
                         </div>
                         <div role="tabpanel" class="tab-pane fade" id="trekking" aria-labelledby="trekking-tab">
                             <div class="col-md-4">
-                                <img src="page/images/m2.jpg" class="img-responsive" alt="Wanderer">
+                                <img src="page/images/thachcao.jpg" class="img-responsive" alt="Wanderer">
                             </div>
                             <div class="col-md-8">
                                 <div class="alert alert-danger" role="alert">
                                     <ul>
-                                       <li><strong><i>diennuoc.com Chuyên nhận thiết kế, thi công hệ thống các loại điện</i></strong></li>
-                                       <li><span class="glyphicon glyphicon-heart" aria-hidden="true"></span> Nhận xứ lí sự cố hệ thống điện trong nhà nhanh nhất.</li>
-                                       <li><span class="glyphicon glyphicon-ok" aria-hidden="true"></span> Nhận thiết kế, xây dựng điện công trình uy tín chất lượng.</li>
-                                       <li><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span> Nhận thiết kế, xây dựng điện nhà ở uy tín chất lượng.</li>
-                                       <li><span class="glyphicon glyphicon-send" aria-hidden="true"></span> Nhận thiết kế, xây dựng hệ thống điện thông minh cao cấp uy tín chất lượng.</li>
-                                       <li><span class="glyphicon glyphicon-repeat" aria-hidden="true"></span> Với đội ngủ nhân viên lâu năm kinh nghiệm, chúng tôi sẽ cổ gắng đáp ứng đủ yêu cầu của khách hàng.</li>
+                                       <li><strong><i><h1>diennuocdatduong.com 0984250265</h1></i></strong></li>
+                                       <li class="mgnT20"><h3><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span> Nhận xứ lí, sửa chữa gấp các sự cổ trần thạch cao nhà ở, căn hộ, chung cư, trường học... nhanh nhất.</h3></li>
+                                       <li class="mgnT15"><h3><span class="glyphicon glyphicon-ok" aria-hidden="true"></span> Nhận thiết kế, thi công lắp đặt trần thạch cao uy tín chất lượng tai TP HỒ CHI MINH.</h3></li>
                                     </ul>
                                 </div>
                             </div>
