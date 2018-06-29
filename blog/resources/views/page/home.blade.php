@@ -5,28 +5,28 @@
     <div class="agile-1">
     <!-- technology-top -->
         <div class="featured-services logo" data-wow-duration=".8s" data-wow-delay=".2s">
-            <p style="font-size: 22px">QUY TRÌNH DỊCH VỤ</p>
+            <p style="font-size: 22px">CHUYÊN SỬA CHỮA, THI CÔNG ĐIỆN NƯỚC THEO YÊU CẦU</p>
             <div class="featured-services-grids">
                 <div class="col-md-4 featured-services-grid">
                     <div class="featured-services-grd phone">
                         <span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>
-                        <h4>Tiếp nhận yêu cầu</h4>
-                        <p>Khi bạn gặp sự cổ về điện nước hãy gọi ngay cho chúng tôi: <h1> 0977970263 </h1> hoặc <h1> 0909999999 </h1></p>
+                        <h4>Hãy gọi cho chúng tôi</h4>
+                        Khi bạn gặp sự cổ về điện nước hãy gọi ngay cho chúng tôi: <h1> 0984250265 </h1> hoặc <h1> 0977970263 </h1> với chi phí cạch tranh.
                     </div>
                 </div>
                 <div class="col-md-4 featured-services-grid">
                     <div class="featured-services-grd">
                         <span class="glyphicon glyphicon-plane" aria-hidden="true"></span>
-                        <h4>Di chuyến</h4>
-                        <p>Với phương châm uy tin, chất lượng, hết mình với công việc và muốn kết nối lâu dài với mọi gia đình, công trình lớn nhỏ nên chúng tôi sẽ làm việc với chất lượng cao nhất để nhận được sự tin tướng từ mọi người.</p>
-                        
+                        <h4>Sẵn sàng khi bạn cần</h4>
+                        Với đội ngủ nhân viên giàu kinh nghiệm qua các công trình lớn nhỏ, hết mình với công việc. Chúng tôi mong muốn hợp tác lâu dài bằng những công việc uy tin chất lượng nhất
                     </div>
                 </div>
                 <div class="col-md-4 featured-services-grid">
                     <div class="featured-services-grd">
                         <span class="glyphicon glyphicon-wrench" aria-hidden="true"></span>
                         <h4>Quả trình sửa chữa</h4>
-                        <p>Với đội ngũ giàu kinh nghiệm qua nhiều công trình lớn nhỏ. Đảm báo sẽ làm hài lòng gia đình các bạn. Thợ điện nước uy tín, phục vụ nhanh chóng, chi phí cạnh tranh.</p>
+                        Chúng tôi chuyên xứ lí những sự cổ lớn nhỏ trong hệ thống điện nước của hộ gia đình, căn hộ, chung cư, trường học...
+                        <h3>GIÁ RẺ – UY TÍN CHẤT LƯỢNG</h3>
                     </div>
                 </div>
                 <div class="clearfix"> </div>
@@ -40,28 +40,28 @@
                     <div class="featured-services-grd">
                         <span class="glyphicon glyphicon-refresh" aria-hidden="true"></span>
                         <h4>Thợ sửa điện nước tại nhà uy tín</h4>
-                        <p>Chuyên xử lý các sự cố về hệ thống điện nước tại nhà. Có mặt sau 30 phút. Chi phí tiết kiệm nhất</p>
+                        Chuyên xử lý các sự cố về hệ thống điện nước tại nhà. Có mặt sau 30 phút. Chi phí tiết kiệm nhất.
                     </div>
                 </div>
                 <div class="col-md-6 featured-services-grid">
                     <div class="featured-services-grd">
                         <span class="glyphicon glyphicon-bell" aria-hidden="true"></span>
                         <h4>Thiết kế, thi công hệ thống điện nước dân dụng</h4>
-                        <p>Thiết kế, thi công hệ thống điện nước cho các công trình nhà ở, trường học, bệnh viện…đảm bảo tính khoa học và tiết kiệm chi phí</p>
+                        Thiết kế, thi công hệ thống điện nước cho các công trình nhà ở, trường học, bệnh viện… đảm bảo tính khoa học và tiết kiệm chi phí.
                     </div>
                 </div>
                 <div class="col-md-6 featured-services-grid">
                     <div class="featured-services-grd">
                         <span class="glyphicon glyphicon-globe" aria-hidden="true"></span>
-                        <h4>Sửa chữa, lắp đặt máy thiết bị điện thông minh</h4>
-                        <p>Điện nước Minh Nhật chuyên sửa chữa máy bơm nước giá rẻ, thay thế linh kiện chính hãng tốt, lắp đặt máy bơm mới, công suất phù hợp…</p>
+                        <h4>Sửa chữa, lắp đặt thiết bị điện thông minh</h4>
+                        diennuocdatduong.com có đội ngũ chuyên lắp đặt các thiết bị thông minh cho nhà căn hộ cao cấp, nhà hàng, biệt thự... Chúng tồi luôn sẵn sàng đáp ứng yều cầu của khách hàng. Cung cấp dịch vụ tốt nhất. 
                     </div>
                 </div>
                 <div class="col-md-6 featured-services-grid">
                     <div class="featured-services-grd">
                         <span class="glyphicon glyphicon-usd" aria-hidden="true"></span>
                         <h4>Cung cấp, tư vẫn vật tư điện - nước giá rẻ</h4>
-                        <p>Cung cấp vật tư điện nước các loại, chất lượng tốt, giá rẻ</p>
+                        Với hệ thông phân phổi thiết bị điện nước tại TP.Hồ Chi Minh chúng tôi luôn cung cấp vật tư điện nước các loại, chất lượng tốt, giá rẻ.
                     </div>
                 </div>
                 <div class="clearfix"> </div>
@@ -78,7 +78,7 @@
         <div class="col-md-12 w3ls-left wow fadeInDown"  data-wow-duration=".8s" data-wow-delay=".2s">
              <div class="tc-ch">
                 <div class="tch-img">
-                <a href="singlepage.html"><img src="page/images/tho-dien-nuoc.jpg" class="img-responsive" alt=""></a>
+                <a href="singlepage.html"><img src="page/images/tho-dien-nuoc3.jpg" class="img-responsive" alt=""></a>
             </div>
             <h3><a href="singlepage.html">Điện nước Tiến Đạt – Nỗ lực vì khách hàng</a></h3>
             <p>Lấy Uy tín – Chất lượng – Hiệu quả làm phương châm hoạt động, cùng với đội ngũ thợ sửa điện nước lành nghề và chuyên nghiệp đến nay chúng tôi đã có được một chỗ đứng vững mạnh và được nhiều khách hàng tin tưởng sử dụng dịch vụ.
