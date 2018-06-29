@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
 
 class HomeController extends Controller
 {
@@ -13,9 +13,9 @@ class HomeController extends Controller
      */
     public function index()
     {
-        return view('page.home');
+        $news = DB::table('news')->where('display_home', '=', 1)->get();
+        return view('page.home', compact('news'));
     }
-
     public function detail()
     {
         return view('page.detail');

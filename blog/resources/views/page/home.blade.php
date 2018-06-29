@@ -18,7 +18,7 @@
                     <div class="featured-services-grd">
                         <span class="glyphicon glyphicon-plane" aria-hidden="true"></span>
                         <h4>Sẵn sàng khi bạn cần</h4>
-                        Với đội ngủ nhân viên giàu kinh nghiệm qua các công trình lớn nhỏ, hết mình với công việc. Chúng tôi mong muốn hợp tác lâu dài bằng những công việc uy tin chất lượng nhất
+                        Với đội ngủ nhân viên giàu kinh nghiệm qua các công trình lớn nhỏ, hết mình với công việc. Chúng tôi mong muốn hợp tác lâu dài bằng những công việc uy tin chất lượng nhất.
                     </div>
                 </div>
                 <div class="col-md-4 featured-services-grid">
@@ -34,7 +34,7 @@
         </div>
         <div class="logo">
             <p class="blog-grids" style="font-size: 22px">Chúng tôi nhận sửa chữa tất cả các vấn đề liên quan đến Điện và Nước</p>
-            <p>Thợ giỏi chuyên môn – Báo giá trước khi làm – Làm từ việc nhỏ nhất – Đội thợ dịch vụ khắp các quận thành phố</p>
+            <p>Thợ giỏi chuyên môn – Báo giá trước khi làm – Làm từ việc nhỏ nhất – Đội thợ dịch vụ khắp các quận thành phố.</p>
             <div class="featured-services-grids">
                 <div class="col-md-6 featured-services-grid">
                     <div class="featured-services-grd">
@@ -60,7 +60,7 @@
                 <div class="col-md-6 featured-services-grid">
                     <div class="featured-services-grd">
                         <span class="glyphicon glyphicon-usd" aria-hidden="true"></span>
-                        <h4>Cung cấp, tư vẫn vật tư điện - nước giá rẻ</h4>
+                        <h4>Cung cấp, tư vấn vật tư điện - nước giá rẻ</h4>
                         Với hệ thông phân phổi thiết bị điện nước tại TP.Hồ Chi Minh chúng tôi luôn cung cấp vật tư điện nước các loại, chất lượng tốt, giá rẻ.
                     </div>
                 </div>
@@ -110,50 +110,30 @@
         <div class="clearfix"></div>
     </div>
     <!-- technology-top -->
-    <div class="wthree">
-         <div class="col-md-6 wthree-left wow fadeInDown"  data-wow-duration=".8s" data-wow-delay=".2s">
-            <div class="tch-img">
-                    <a href="singlepage.html"><img src="page/images/f1.jpg" class="img-responsive" alt=""></a>
+     @foreach($news as $item)
+        <div class="wthree">
+             <div class="col-md-6 wthree-left wow fadeInDown"  data-wow-duration=".8s" data-wow-delay=".2s">
+                <div class="tch-img">
+                        <a href="singlepage.html"><img src="page/images/f1.jpg" class="img-responsive" alt=""></a>
+                    </div>
+             </div>
+             <div class="col-md-6 wthree-right wow fadeInDown"  data-wow-duration=".8s" data-wow-delay=".2s">
+                <h3><a href="/detail">Chuyên nhận sửa chữa thi công thiết bị điện nước công trình</a></h3>
+                <p>Dịch vụ thi công điện nước tại TPHCM của chúng tôi cam kết mang đến cho quý khách một hệ thống điện nước an toàn, tiên lợi, tính thẩm mỹ cao và ít bị xảy ra sự cố điện nước nhất...</p>
+                <div class="bht1">
+                    <a href="singlepage.html">Chi tiết</a>
                 </div>
-         </div>
-         <div class="col-md-6 wthree-right wow fadeInDown"  data-wow-duration=".8s" data-wow-delay=".2s">
-            <h3><a href="singlepage.html">Chuyên nhận sửa chữa thi công thiết bị điện nước công trình</a></h3>
-            <p>Dịch vụ thi công điện nước tại TPHCM của chúng tôi cam kết đem đến cho quý khách một hệ thống điện nước an toàn, tiên lợi, tính thẩm mỹ cao và ít bị xảy ra sự cố điện nước nhất.....</p>
-            <div class="bht1">
-                <a href="singlepage.html">Chi tiết</a>
-            </div>
-            <div class="soci">
-                <ul>
-                    <li class="hvr-rectangle-out"><a class="twit" href="#"></a></li>
-                    <li class="hvr-rectangle-out"><a class="pin" href="#"></a></li>
-                </ul>
+                <div class="soci">
+                    <ul>
+                        <li class="hvr-rectangle-out"><a class="twit" href="#"></a></li>
+                        <li class="hvr-rectangle-out"><a class="pin" href="#"></a></li>
+                    </ul>
+                </div>
+                <div class="clearfix"></div>
             </div>
             <div class="clearfix"></div>
         </div>
-        <div class="clearfix"></div>
-    </div>
-    <div class="wthree">
-         <div class="col-md-6 wthree-left wow fadeInDown"  data-wow-duration=".8s" data-wow-delay=".2s">
-            <div class="tch-img">
-                <a href="singlepage.html"><img src="page/images/f2.jpg" class="img-responsive" alt=""></a>
-            </div>
-         </div>
-         <div class="col-md-6 wthree-right wow fadeInDown"  data-wow-duration=".8s" data-wow-delay=".2s">
-            <h3><a href="singlepage.html">Nhận sữa chữa thi công các công </a></h3>
-            <p>Ut enim ad minim veniam, quis nostrud eiusmod tempor incididunt ut labore et dolore magna aliqua exercitation ullamco laboris .</p>
-            <div class="bht1">
-                <a href="singlepage.html">Chi tiết</a>
-            </div>
-            <div class="soci">
-                <ul>
-                    <li class="hvr-rectangle-out"><a class="goog" href="#"></a></li>                                    
-                    <li class="hvr-rectangle-out"><a class="fb" href="#"></a></li>
-                </ul>
-            </div>
-            <div class="clearfix"></div>    
-        </div>
-        <div class="clearfix"></div>
-    </div>
+     @endforeach
     </div>
 </div>
 @endsection()

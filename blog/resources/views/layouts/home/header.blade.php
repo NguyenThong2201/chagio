@@ -30,8 +30,8 @@
             <div class="collapse navbar-collapse nav-wil" id="bs-example-navbar-collapse-1">
                 <nav class="link-effect-7" id="link-effect-7">
                     <ul class="nav navbar-nav">
-                        <li class="active act"><a href="index.html">Trang Chủ</a></li>
-                        <li><a href="about.html">Dịch Vụ</a></li>
+                        <li class="active act"><a href="/home">Trang Chủ</a></li>
+                        <li><a href="/service">Dịch Vụ</a></li>
                         <li><a href="features.html">Bài Viết Hướng Dẫn</a></li>
                         <li><a href="fashion.html">Mẹo Vặt</a></li>
                         <li><a href="contact.html">Liên Hệ</a></li>
