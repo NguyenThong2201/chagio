@@ -141,7 +141,7 @@ label.icon-search span {
     margin-left: 1em;
 }
 .social-icons ul li a {
-    background: url(../images/social-icons.png)no-repeat -3px -2px;
+    /*background: url(../images/social-icons.png)no-repeat -3px -2px;*/
     display: block;
     height: 22px;
     width: 20px;
@@ -1865,9 +1865,17 @@ h5.top {
 }
 /*-- responsive design --*/
 @media (max-width:800px) {
+    .wow ul{
+        margin-left: -80px;
+        line-height: 28px;
+    }
 }
 /*-- responsive design --*/
 @media (max-width:768px) {
+    .wow ul{
+        margin-left: -100px;
+        line-height: 28px;
+    }
 .banner {
     padding: 8em 0 0;
 }
@@ -1880,6 +1888,13 @@ h5.top {
 }
 /*-- responsive design --*/
 @media(max-width:767px){
+    .mgn-right{
+        margin-right: 15px;
+    }
+    .wow ul{
+        margin-left: -100px;
+        line-height: 28px;
+    }
 .navbar-toggle {
     padding: 9px 10px;
     margin-top: 28px;
@@ -1936,7 +1951,7 @@ h5.top {
 }
 .header_right {
     float: left;
-	width:47%;
+	width:28%;
 }
 .head-left {
     width: 20%;
@@ -1950,6 +1965,19 @@ h5.top {
 }
 /*-- responsive design --*/
 @media (max-width:736px) {
+    .menu-smp-width{
+        width:100% !important;
+    }
+    .margin-left-banner{
+        margin-left: -3px !important;
+    }
+    .wow-phone ul{
+        margin-left: -34px !important;
+    }
+    .wow ul{
+        margin-left: 0px;
+        line-height: 28px;
+    }
 .tab-image {
     float: left;
 }
@@ -2010,6 +2038,19 @@ label.on {
 }
 /*-- responsive design --*/
 @media (max-width:667px) {
+    .menu-smp-width{
+        width:100% !important;
+    }
+    .margin-left-banner{
+        margin-left: -3px !important;
+    }
+    .wow-phone ul{
+        margin-left: -34px !important;
+    }
+    .wow ul{
+        margin-left: 0px;
+        line-height: 28px;
+    }
 .logo h1 a {
     font-size: 1.1em;
 }
@@ -2041,6 +2082,22 @@ abel.icon-search span {
 }
 /*-- responsive design --*/
 @media (max-width:640px) {
+    .mgn-right{
+        margin-right: 15px;
+    }
+    .menu-smp-width{
+        width:100% !important;
+    }
+    .margin-left-banner{
+        margin-left: -3px !important;
+    }
+    .wow-phone ul{
+        margin-left: -34px !important;
+    }
+    .wow ul{
+        margin-left: 0px;
+        line-height: 28px;
+    }
 .banner {
     min-height: 380px;
 }
@@ -2061,6 +2118,13 @@ label.on {
 }
 /*-- responsive design --*/
 @media (max-width:600px) {
+    .mgn-right{
+        margin-right: 15px;
+    }
+    .wow ul{
+        margin-left: -100px;
+        line-height: 28px;
+    }
 .banner h2 {
     font-size: 1.5em;
 }
@@ -2081,6 +2145,22 @@ label.on {
 }
 /*-- responsive design --*/
 @media (max-width:568px) {
+    .mgn-right{
+        margin-right: 0px;
+    }
+    .menu-smp-width{
+        width:100% !important;
+    }
+    .margin-left-banner{
+        margin-left: -3px !important;
+    }
+    .wow-phone ul{
+        margin-left: -34px !important;
+    }
+    .wow ul{
+        margin-left: 0px;
+        line-height: 28px;
+    }
 label.of {
     display: none;
     left: 64px;
@@ -2104,6 +2184,22 @@ label.on {
 }
 /*-- responsive design --*/
 @media (max-width:480px) {
+    .mgn-right{
+        margin-right: 15px;
+    }
+    .menu-smp-width{
+        width:100% !important;
+    }
+    .margin-left-banner{
+        margin-left: -3px !important;
+    }
+    .wow-phone ul{
+        margin-left: -34px !important;
+    }
+    .wow ul{
+        margin-left: 0px;
+        line-height: 28px;
+    }
 .logo h1 a {
     font-size: 1em;
 }
@@ -2175,6 +2271,22 @@ label.on {
 }
 /*-- responsive design --*/
 @media (max-width:414px) {
+    .mgn-right{
+        margin-right: 0px;
+    }
+    .menu-smp-width{
+        width:100% !important;
+    }
+    .margin-left-banner{
+        margin-left: -3px !important;
+    }
+    .wow-phone ul{
+        margin-left: -34px !important;
+    }
+    .wow ul{
+        margin-left: 0px;
+        line-height: 28px;
+    }
 .soci {
     float: left;
     padding-top: 1em;
@@ -2334,7 +2446,7 @@ label.on {
     width: 36%;
 }
 .header_right {
-    width: 58%;
+    width: 28%;
 }
 .navbar-toggle {
     margin-right: 75px;
@@ -2426,7 +2538,7 @@ label.on {
     width: 44%;
 }
 .header_right {
-    width: 53%;
+    width: 28%;
 }
 .head-left {
     width: 3%;

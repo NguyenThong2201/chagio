@@ -708,3 +708,6 @@ li {
   background-image: -o-linear-gradient(top, #71ca3f, #5aa72e);
   background-image: linear-gradient(to bottom, #71ca3f, #5aa72e);
 }
+.footer-custom p a{
+    color:#ffff !important;
+}

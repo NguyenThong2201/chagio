@@ -19,12 +19,12 @@
                             <div class="col-md-4">
                                 <img src="page/images/dien.jpg" class="img-responsive" alt="Wanderer">
                             </div>
-                            <div class="col-md-8">
+                            <div class="col-md-8 mgn-right">
                                 <div class="alert alert-success" role="alert">
-                                    <ul>
-                                       <li><strong><i><h1>diennuocdatduong.com 0984250265</h1></i></strong></li>
-                                       <li class="mgnT20"><h3><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span> Nhận xứ lí, sửa chữa gấp các sự cổ hệ thống điện-nước  nhà ở, căn hộ, chung cư, trường học... nhanh nhất.</h3></li>
-                                       <li class="mgnT15"><h3><span class="glyphicon glyphicon-ok" aria-hidden="true"></span> Nhận thiết kế, xây dựng điện nước và hệ thống điện thông minh uy tín chất lượng.</h3></li>
+                                    <ul class="margin-left-banner">
+                                       <li><strong><i><h4>diennuocdatduong.com 0984250265</h4></i></strong></li>
+                                       <li class="mgnT20"><h3><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span> Nhận xứ lí, sửa chữa gấp các sự cổ hệ thống điện-nước  nhà ở, căn hộ, chung cư, trường học tại TP HCM... trong mọi khung giờ kế cả thứ 7, chủ nhật và các ngày lễ...</h3></li>
+                                       <li class="mgnT15"><h3><span class="glyphicon glyphicon-ok" aria-hidden="true"></span> Nhận thiết kế, xây dựng điện nước và hệ thống điện thông minh uy tín chất lượng. </h3></li>
                                     </ul>
                                 </div>
                             </div>
@@ -34,12 +34,12 @@
                             <div class="col-md-4">
                                 <img src="page/images/thachcao.jpg" class="img-responsive" alt="Wanderer">
                             </div>
-                            <div class="col-md-8">
+                            <div class="col-md-8 mgn-right">
                                 <div class="alert alert-info" role="alert">
-                                    <ul>
-                                       <li><strong><i><h1>diennuocdatduong.com 0984250265</h1></i></strong></li>
-                                       <li class="mgnT20"><h3><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span> Nhận xứ lí, sửa chữa gấp các sự cổ trần thạch cao nhà ở, căn hộ, chung cư, trường học... nhanh nhất.</h3></li>
-                                       <li class="mgnT15"><h3><span class="glyphicon glyphicon-ok" aria-hidden="true"></span>Nhận thiết kế, xây dựng trần thạch cao uy tín chất lượng.</h3></li>
+                                    <ul class="margin-left-banner">
+                                       <li><strong><i><h4>diennuocdatduong.com 0984250265</h4></i></strong></li>
+                                       <li class="mgnT20"><h3><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span> Nhận xứ lí sự cố, sửa chữa, thi công các tất cả các lạo bảng hiệu quảng cáo uy tin và đáng tin cậy nhất.</h3></li>
+                                       <li class="mgnT15"><h3><span class="glyphicon glyphicon-ok" aria-hidden="true"></span> Nhận thiết kế, thi công bảng hiệu quảng cảo uy tín chất lượng.<br> Liên hệ: 0984250265</h3></li>
                                     </ul>
                                 </div>
                             </div>
@@ -49,12 +49,12 @@
                             <div class="col-md-4">
                                 <img src="page/images/thachcao.jpg" class="img-responsive" alt="Wanderer">
                             </div>
-                            <div class="col-md-8">
+                            <div class="col-md-8 mgn-right">
                                 <div class="alert alert-danger" role="alert">
-                                    <ul>
-                                       <li><strong><i><h1>diennuocdatduong.com 0984250265</h1></i></strong></li>
+                                    <ul class="margin-left-banner">
+                                       <li><strong><i><h4>diennuocdatduong.com 0984250265</h4></i></strong></li>
                                        <li class="mgnT20"><h3><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span> Nhận xứ lí, sửa chữa gấp các sự cổ trần thạch cao nhà ở, căn hộ, chung cư, trường học... nhanh nhất.</h3></li>
-                                       <li class="mgnT15"><h3><span class="glyphicon glyphicon-ok" aria-hidden="true"></span> Nhận thiết kế, thi công lắp đặt trần thạch cao uy tín chất lượng tai TP HỒ CHI MINH.</h3></li>
+                                       <li class="mgnT15"><h3><span class="glyphicon glyphicon-ok" aria-hidden="true"></span> Nhận thiết kế, thi công lắp đặt trần thạch cao uy tín chất lượng tai TP HỒ CHI MINH.<br> Liên hệ: 0984250265</h3></li>
                                     </ul>
                                 </div>
                             </div>

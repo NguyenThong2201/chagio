@@ -18,7 +18,7 @@
                     <div class="featured-services-grd">
                         <span class="glyphicon glyphicon-plane" aria-hidden="true"></span>
                         <h4>Sẵn sàng khi bạn cần</h4>
-                        Với đội ngủ nhân viên giàu kinh nghiệm qua các công trình lớn nhỏ, hết mình với công việc. Chúng tôi mong muốn hợp tác lâu dài bằng những công việc uy tin chất lượng nhất.
+                        Với đội ngủ nhân viên giàu kinh nghiệm qua các công trình lớn nhỏ, hết mình với công việc. Chúng tôi mong muốn hợp tác lâu dài bằng những công việc uy tin chất lượng nhất. <h3>LUÔN ĐÁP ỨNG CÔNG VIỆC 24/7</h3>
                     </div>
                 </div>
                 <div class="col-md-4 featured-services-grid">
@@ -62,6 +62,7 @@
                         <span class="glyphicon glyphicon-usd" aria-hidden="true"></span>
                         <h4>Cung cấp, tư vấn vật tư điện - nước giá rẻ</h4>
                         Với hệ thông phân phổi thiết bị điện nước tại TP.Hồ Chi Minh chúng tôi luôn cung cấp vật tư điện nước các loại, chất lượng tốt, giá rẻ.
+                        <br><br><a href="#">Xem sản phẩm</a>
                     </div>
                 </div>
                 <div class="clearfix"> </div>
@@ -80,10 +81,10 @@
                 <div class="tch-img">
                 <a href="singlepage.html"><img src="page/images/tho-dien-nuoc3.jpg" class="img-responsive" alt=""></a>
             </div>
-            <h3><a href="singlepage.html">Điện nước Tiến Đạt – Nỗ lực vì khách hàng</a></h3>
+            <h3><a href="singlepage.html">Điện nước Đạt Dương – Nỗ lực vì khách hàng</a></h3>
             <p>Lấy Uy tín – Chất lượng – Hiệu quả làm phương châm hoạt động, cùng với đội ngũ thợ sửa điện nước lành nghề và chuyên nghiệp đến nay chúng tôi đã có được một chỗ đứng vững mạnh và được nhiều khách hàng tin tưởng sử dụng dịch vụ.
             Nắm được tầm quan trọng của hệ thống điện nước, chúng tôi luôn cam kết đem đến dịch vụ chất lượng với mức giá tốt nhất thay vì đem đến những dịch vụ giá rẻ kém chất lượng, giảm tuổi thọ của công trình, những điều đo đó sẽ làm tổn thất chi phí lớn cho khách hàng trong tương lai.</p>
-            <p>Với mong muốn đem lại cho khách hàng một dịch vụ tốt nhất, điện nước Minh Nhật không ngừng nỗ lực phát triển với phương hướng và nhiệm vụ:</p>
+            <p>Với mong muốn đem lại cho khách hàng một dịch vụ tốt nhất, điện nước Đạt Dương không ngừng nỗ lực phát triển với phương hướng và nhiệm vụ:</p>
             <ul>
                <li>Xây dựng cơ cấu tổ chức nâng cao năng lực quản lý trong công việc</li>
                <li>Xây dựng hàng ngũ nhân viên chuyên nghiệp, tinh thần trách nhiệm cao</li>
@@ -118,10 +119,10 @@
                     </div>
              </div>
              <div class="col-md-6 wthree-right wow fadeInDown"  data-wow-duration=".8s" data-wow-delay=".2s">
-                <h3><a href="/detail">Chuyên nhận sửa chữa thi công thiết bị điện nước công trình</a></h3>
+                <h3><a href="{{route('detail',$item->title_sale)}}">{{ $item->title }}</a></h3>
                 <p>Dịch vụ thi công điện nước tại TPHCM của chúng tôi cam kết mang đến cho quý khách một hệ thống điện nước an toàn, tiên lợi, tính thẩm mỹ cao và ít bị xảy ra sự cố điện nước nhất...</p>
                 <div class="bht1">
-                    <a href="singlepage.html">Chi tiết</a>
+                    <a href="{{route('detail',$item->title_sale)}}">Chi tiết</a>
                 </div>
                 <div class="soci">
                     <ul>
