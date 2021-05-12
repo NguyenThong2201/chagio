@@ -22,9 +22,9 @@ class CreateProductsTable extends Migration
 	        $table->string('summary')->nullable();
 	        $table->string('price')->nullable();
 	        $table->string('sku')->nullable();
-	        $table->float('discount')->default(0);
-	        $table->integer('quantity')->default(0);
-	        $table->integer('shop')->default(0);
+	        $table->float('discount')->default(0)->nullable();
+	        $table->integer('quantity')->default(0)->nullable();
+	        $table->integer('shop')->default(0)->nullable();
 	        $table->text('contents')->nullable();
 	        $table->integer('status')->default(0);
             $table->tinyInteger('completed')->nullable();

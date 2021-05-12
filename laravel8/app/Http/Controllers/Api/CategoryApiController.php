@@ -1,23 +1,27 @@
 <?php
 
-namespace App\Http\Controllers\Admin;
+namespace App\Http\Controllers\Api;
 
-use App\Models\Category;
-use App\Models\Products;
-use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
+use App\Models\Category;
+use Illuminate\Http\Request;
 
-class ProductsController extends Controller
+class CategoryApiController extends Controller
 {
     /**
      * Display a listing of the resource.
      *
      * @return \Illuminate\Http\Response
      */
-    public function index()
+    public function getListCategory()
     {
-	    $products = [];
-	    return view('admin.pages.products.index')->with('products', $products);
+        $listCategory = Category::all();
+
+        //$listProducts = [];
+        return response()->json([
+            'message' => 'Get list products successfully',
+            'list_category' => $listCategory
+        ], 200);
     }
 
     /**
@@ -27,8 +31,7 @@ class ProductsController extends Controller
      */
     public function create()
     {
-		$category = [];
-	    return view('admin.pages.products.create')->with('category', $category);
+        //
     }
 
     /**
@@ -39,7 +42,7 @@ class ProductsController extends Controller
      */
     public function store(Request $request)
     {
-    	//
+        //
     }
 
     /**
@@ -61,9 +64,7 @@ class ProductsController extends Controller
      */
     public function edit($id)
     {
-    	$product  = Products::find($id);
-	    $category = Category::all();
-	    return view('admin.pages.products.create',compact('product','category'));
+        //
     }
 
     /**

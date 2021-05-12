@@ -65,5 +65,12 @@ Route::group([
         ]);
     });
 
+    // API
+    Route::get('/api/list_products', [\App\Http\Controllers\Api\ProductsApiController::class, 'getListProducts']);
+    Route::post('/api/products/add', [\App\Http\Controllers\Api\ProductsApiController::class, 'addProducts']);
+    Route::get('/api/list_category', [\App\Http\Controllers\Api\CategoryApiController::class, 'getListCategory']);
+
 });
+
+
 

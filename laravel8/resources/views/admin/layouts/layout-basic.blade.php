@@ -3,7 +3,7 @@
 <html lang="en">
 
 <head>
-    <title>Material Able bootstrap admin template by Codedthemes</title>
+    <title>Ra Đảo TT</title>
     <!-- HTML5 Shim and Respond.js IE10 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 10]>
@@ -14,7 +14,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-
+    <meta name="csrf-token" value="{{ csrf_token() }}" />
     <meta name="keywords" content="bootstrap, bootstrap admin template, admin theme, admin dashboard, dashboard template, admin template, responsive" />
     <meta name="author" content="Codedthemes" />
     <!-- Favicon icon -->
@@ -36,6 +36,7 @@
     <link rel="stylesheet" type="text/css" href="{{asset('assets/css/jquery.mCustomScrollbar.css')}}">
     <!-- Style.css -->
     <link rel="stylesheet" type="text/css" href="{{asset('assets/css/style.css')}}">
+
 </head>
 
 <body>
@@ -132,7 +133,7 @@
                     <!-- Page-header end -->
                     <div class="pcoded-inner-content">
                         <!-- Main-body start -->
-                        <div class="main-body">
+                        <div id="app" class="main-body">
                             <div class="page-wrapper">
                                 <!-- Page-body start -->
                                 @yield('content')
@@ -197,6 +198,7 @@
 <script type="text/javascript" src="{{asset('assets/js/popper.js/popper.min.js')}}"></script>
 <script type="text/javascript" src="{{asset('assets/js/bootstrap/js/bootstrap.min.js')}} "></script>
 <!-- waves js -->
+<script src="{{ asset('js/app.js')}}"></script>
 <script src="{{asset('assets/pages/waves/js/waves.min.js')}}"></script>
 <!-- jquery slimscroll js -->
 <script type="text/javascript" src="{{asset('assets/js/jquery-slimscroll/jquery.slimscroll.js')}}"></script>
