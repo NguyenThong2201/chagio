@@ -18,15 +18,15 @@
                 <label class="col-sm-2 col-form-label">Title</label>
                 <div class="col-sm-10">
                     <input type="text" class="form-control" :class="{'is-invalid': this.allErrors.title}" v-model="newProducts.title" placeholder="Name">
+                    <p v-if="this.allErrors.title" class="text-pink"> {{ this.allErrors.title }} </p>
                 </div>
-                <span v-if="this.allErrors.title" class="help-block help-block-error">{{ this.allErrors.title }}</span>
             </div>
             <div class="form-group row">
                 <label class="col-sm-2 col-form-label">Summary</label>
                 <div class="col-sm-10">
                     <input type="text" class="form-control" :class="{'is-invalid': this.allErrors.summary}" v-model="newProducts.summary" placeholder="Type your title in Placeholder">
+                    <p v-if="this.allErrors.summary" class="text-pink"> {{ this.allErrors.summary }} </p>
                 </div>
-                <span v-if="this.allErrors.summary" class="help-block help-block-error">{{ this.allErrors.summary }}</span>
             </div>
             <div class="form-group row">
                 <label class="col-sm-2 col-form-label">Category</label>
@@ -35,8 +35,8 @@
                         <option value=""></option>
                         <option v-for="(item,key) in this.category_list" :value="item.id">{{ item.title }}</option>
                     </select>
+                    <p v-if="this.allErrors.category_id" class="text-pink"> {{ this.allErrors.category_id }} </p>
                 </div>
-                <span v-if="this.allErrors.category_id" class="help-block help-block-error">{{ this.allErrors.category_id }}</span>
             </div>
             <div class="form-group row">
                 <label class="col-sm-2 col-form-label">Upload File</label>
@@ -47,13 +47,14 @@
             <div class="form-group row">
                 <label class="col-sm-2 col-form-label">Textarea</label>
                 <div class="col-sm-10">
-                    <textarea rows="5" cols="5" class="form-control" placeholder="Default textarea"></textarea>
+                    <textarea v-model="newProducts.contents" rows="5" cols="5" class="form-control" :class="{'is-invalid': this.allErrors.title}" placeholder="Default textarea"></textarea>
+                    <p v-if="this.allErrors.contents" class="text-pink"> {{ this.allErrors.contents }} </p>
                 </div>
             </div>
             <div class="form-group row">
                 <label class="col-sm-2 col-form-label"></label>
                 <div class="col-sm-10">
-                    <button @click="addProducts()" class="btn btn-success waves-effect waves-light">Success Button</button>
+                    <button @click="addProducts()" class="btn btn-success waves-effect waves-light">Submit</button>
                 </div>
             </div>
         </div>
@@ -80,11 +81,11 @@
                     id: '',
                     title: '',
                     image: {},
-                    category_id: '1',
+                    category_id: '',
                     slug: '',
                     price: '',
                     summary: '',
-                    contents: 'Anh Bá',
+                    contents: '',
                     status: 1,
                     completed: false
                 },

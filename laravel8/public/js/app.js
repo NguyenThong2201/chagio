@@ -1927,6 +1927,7 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
 //
 //
 //
+//
 
 var CommonRepository = _repositories_RepositoryFactory__WEBPACK_IMPORTED_MODULE_1__.RepositoryFactory.get('common');
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
@@ -1945,11 +1946,11 @@ var CommonRepository = _repositories_RepositoryFactory__WEBPACK_IMPORTED_MODULE_
         id: '',
         title: '',
         image: {},
-        category_id: '1',
+        category_id: '',
         slug: '',
         price: '',
         summary: '',
-        contents: 'Anh Bá',
+        contents: '',
         status: 1,
         completed: false
       },
@@ -2128,69 +2129,53 @@ var CommonRepository = _repositories_RepositoryFactory__WEBPACK_IMPORTED_MODULE_
   data: function data() {
     return {
       columns: [{
-        label: 'id',
-        field: 'id'
+        label: 'Code',
+        field: 'id',
+        sort: false,
+        filter: {
+          type: "id",
+          placeholder: "Enter email"
+        },
+        row_text_alignment: "text-center",
+        column_text_alignment: "text-center"
       }, {
-        label: 'title',
+        label: 'Title',
         field: 'title'
       }, {
-        label: 'category',
+        label: 'Category',
         field: 'category'
       }, {
-        label: 'description',
+        label: 'Description',
         field: 'description'
       }],
+      actions: [{
+        btn_text: "Download",
+        event_name: "on-download",
+        event_payload: {
+          msg: "my custom message"
+        }
+      }],
+      config: {
+        pagination: true,
+        pagination_info: true,
+        num_of_visibile_pagination_buttons: 7,
+        per_page: 10,
+        checkbox_rows: true,
+        highlight_row_hover: true,
+        rows_selectable: true,
+        multi_column_sort: false,
+        card_title: "Vue Bootsrap 4 advanced table",
+        card_mode: false,
+        selected_rows_info: true,
+        per_page_options: [5, 10, 20, 30]
+      },
+      classes: {
+        table: "table-bordered table-striped"
+      },
       rows: [],
       page: 1,
       filter: '',
-      perPage: 12,
-      classes: {
-        'table-container': {
-          'justify-center': true,
-          'w-full': true,
-          'flex': true,
-          'rounded': true,
-          'mb-6': true,
-          'shadow-md': true
-        },
-        'table': {
-          'text-left': true,
-          'w-full': true,
-          'border-collapse': true
-        },
-        'thead': {
-          'text-grey-dark': true,
-          'bg-black': true,
-          'border-grey-light': true,
-          'py-4': true,
-          'px-6': true
-        },
-        "t-body": {
-          'bg-grey-darkest': true
-        },
-        "t-head-tr": {},
-        "t-body-tr": {
-          'stripped-table': true,
-          'bg-grey-darkest': true
-        },
-        "td": {
-          'py-4': true,
-          'px-6': true,
-          'border-b': true,
-          'border-grey-light': true,
-          'text-grey-light': true
-        },
-        "th": {
-          'py-4': true,
-          'px-6': true,
-          'font-bold': true,
-          'uppercase': true,
-          'text-sm': true,
-          'text-grey-dark': true,
-          'border-b': true,
-          'border-grey-light': true
-        }
-      }
+      perPage: 12
     };
   },
   created: function created() {
@@ -2213,7 +2198,7 @@ var CommonRepository = _repositories_RepositoryFactory__WEBPACK_IMPORTED_MODULE_
               case 2:
                 _yield$CommonReposito = _context.sent;
                 data = _yield$CommonReposito.data;
-                _this.list_products = data.list_products;
+                _this.rows = data.list_products;
 
               case 5:
               case "end":
@@ -39163,14 +39148,14 @@ var render = function() {
                 _vm.$set(_vm.newProducts, "title", $event.target.value)
               }
             }
-          })
-        ]),
-        _vm._v(" "),
-        this.allErrors.title
-          ? _c("span", { staticClass: "help-block help-block-error" }, [
-              _vm._v(_vm._s(this.allErrors.title))
-            ])
-          : _vm._e()
+          }),
+          _vm._v(" "),
+          this.allErrors.title
+            ? _c("p", { staticClass: "text-pink" }, [
+                _vm._v(" " + _vm._s(this.allErrors.title) + " ")
+              ])
+            : _vm._e()
+        ])
       ]),
       _vm._v(" "),
       _c("div", { staticClass: "form-group row" }, [
@@ -39203,14 +39188,14 @@ var render = function() {
                 _vm.$set(_vm.newProducts, "summary", $event.target.value)
               }
             }
-          })
-        ]),
-        _vm._v(" "),
-        this.allErrors.summary
-          ? _c("span", { staticClass: "help-block help-block-error" }, [
-              _vm._v(_vm._s(this.allErrors.summary))
-            ])
-          : _vm._e()
+          }),
+          _vm._v(" "),
+          this.allErrors.summary
+            ? _c("p", { staticClass: "text-pink" }, [
+                _vm._v(" " + _vm._s(this.allErrors.summary) + " ")
+              ])
+            : _vm._e()
+        ])
       ]),
       _vm._v(" "),
       _c("div", { staticClass: "form-group row" }, [
@@ -39260,19 +39245,54 @@ var render = function() {
               })
             ],
             2
-          )
-        ]),
-        _vm._v(" "),
-        this.allErrors.category_id
-          ? _c("span", { staticClass: "help-block help-block-error" }, [
-              _vm._v(_vm._s(this.allErrors.category_id))
-            ])
-          : _vm._e()
+          ),
+          _vm._v(" "),
+          this.allErrors.category_id
+            ? _c("p", { staticClass: "text-pink" }, [
+                _vm._v(" " + _vm._s(this.allErrors.category_id) + " ")
+              ])
+            : _vm._e()
+        ])
       ]),
       _vm._v(" "),
       _vm._m(2),
       _vm._v(" "),
-      _vm._m(3),
+      _c("div", { staticClass: "form-group row" }, [
+        _c("label", { staticClass: "col-sm-2 col-form-label" }, [
+          _vm._v("Textarea")
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "col-sm-10" }, [
+          _c("textarea", {
+            directives: [
+              {
+                name: "model",
+                rawName: "v-model",
+                value: _vm.newProducts.contents,
+                expression: "newProducts.contents"
+              }
+            ],
+            staticClass: "form-control",
+            class: { "is-invalid": this.allErrors.title },
+            attrs: { rows: "5", cols: "5", placeholder: "Default textarea" },
+            domProps: { value: _vm.newProducts.contents },
+            on: {
+              input: function($event) {
+                if ($event.target.composing) {
+                  return
+                }
+                _vm.$set(_vm.newProducts, "contents", $event.target.value)
+              }
+            }
+          }),
+          _vm._v(" "),
+          this.allErrors.contents
+            ? _c("p", { staticClass: "text-pink" }, [
+                _vm._v(" " + _vm._s(this.allErrors.contents) + " ")
+              ])
+            : _vm._e()
+        ])
+      ]),
       _vm._v(" "),
       _c("div", { staticClass: "form-group row" }, [
         _c("label", { staticClass: "col-sm-2 col-form-label" }),
@@ -39288,7 +39308,7 @@ var render = function() {
                 }
               }
             },
-            [_vm._v("Success Button")]
+            [_vm._v("Submit")]
           )
         ])
       ])
@@ -39336,23 +39356,6 @@ var staticRenderFns = [
         _c("input", { staticClass: "form-control", attrs: { type: "file" } })
       ])
     ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "form-group row" }, [
-      _c("label", { staticClass: "col-sm-2 col-form-label" }, [
-        _vm._v("Textarea")
-      ]),
-      _vm._v(" "),
-      _c("div", { staticClass: "col-sm-10" }, [
-        _c("textarea", {
-          staticClass: "form-control",
-          attrs: { rows: "5", cols: "5", placeholder: "Default textarea" }
-        })
-      ])
-    ])
   }
 ]
 render._withStripped = true
@@ -39381,12 +39384,14 @@ var render = function() {
     "div",
     [
       _c("bootstrap-4-datatable", {
-        class: _vm.classes,
         attrs: {
           columns: _vm.columns,
           data: _vm.rows,
           filter: _vm.filter,
-          "per-page": _vm.perPage
+          "per-page": _vm.perPage,
+          classes: _vm.classes,
+          actions: _vm.actions,
+          config: _vm.config
         }
       }),
       _vm._v(" "),

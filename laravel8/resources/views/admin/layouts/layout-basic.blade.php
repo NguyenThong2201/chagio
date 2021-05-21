@@ -25,6 +25,7 @@
     <link rel="stylesheet" href="{{asset('assets/pages/waves/css/waves.min.css')}}" type="text/css" media="all">
     <!-- Required Fremwork -->
     <link rel="stylesheet" type="text/css" href="{{asset('assets/css/bootstrap/css/bootstrap.min.css')}}">
+
     <!-- waves.css -->
     <link rel="stylesheet" href="{{asset('assets/pages/waves/css/waves.min.css')}}" type="text/css" media="all">
     <!-- themify icon -->
@@ -211,6 +212,7 @@
 <script src="{{asset('assets/js/vertical/vertical-layout.min.js')}} "></script>
 
 <script type="text/javascript" src="{{asset('assets/js/script.js')}} "></script>
+
 
 @yield('scripts')
 </body>

@@ -27,6 +27,7 @@
     },
     "dependencies": {
         "node-sass": "^4.14.1",
+        "vue-bootstrap4-table": "^1.1.11",
         "vuejs-datatable": "^2.0.0-alpha.7"
     }
 }

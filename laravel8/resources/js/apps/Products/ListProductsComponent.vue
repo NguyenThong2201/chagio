@@ -1,6 +1,6 @@
 <template>
     <div>
-        <bootstrap-4-datatable :class="classes" :columns="columns" :data="rows" :filter="filter" :per-page="perPage"></bootstrap-4-datatable>
+        <bootstrap-4-datatable :columns="columns" :data="rows" :filter="filter" :per-page="perPage" :classes="classes" :actions="actions" :config="config"></bootstrap-4-datatable>
         <bootstrap-4-datatable-pager v-model="page" type="abbreviated"></bootstrap-4-datatable-pager>
     </div>
 </template>
@@ -13,76 +13,59 @@
             return {
                 columns: [
                     {
-                        label: 'id',
-                        field: 'id'
+                        label: 'Code',
+                        field: 'id',
+                        sort: false,
+                        filter: {
+                            type: "id",
+                            placeholder: "Enter email"
+                        },
+                        row_text_alignment:  "text-center",
+                        column_text_alignment:  "text-center",
                     },
                     {
-                        label: 'title',
+                        label: 'Title',
                         field: 'title'
                     },
                     {
-                        label: 'category',
+                        label: 'Category',
                         field: 'category'
                     },
                     {
-                        label: 'description',
+                        label: 'Description',
                         field: 'description'
                     }
                 ],
+                actions: [
+                    {
+                        btn_text: "Download",
+                        event_name: "on-download",
+                        event_payload: {
+                            msg: "my custom message"
+                        }
+                    }
+                ],
+                config: {
+                    pagination: true,
+                    pagination_info: true,
+                    num_of_visibile_pagination_buttons: 7,
+                    per_page: 10,
+                    checkbox_rows: true,
+                    highlight_row_hover: true,
+                    rows_selectable: true,
+                    multi_column_sort: false,
+                    card_title: "Vue Bootsrap 4 advanced table",
+                    card_mode: false,
+                    selected_rows_info:true,
+                    per_page_options: [5, 10, 20, 30],
+                },
+                classes: {
+                    table: "table-bordered table-striped"
+                },
                 rows: [],
                 page: 1,
                 filter:  '',
                 perPage: 12,
-                classes: {
-                    'table-container': {
-                        'justify-center': true,
-                        'w-full': true,
-                        'flex': true,
-                        'rounded': true,
-                        'mb-6': true,
-                        'shadow-md': true,
-                    },
-                    'table': {
-                        'text-left': true,
-                        'w-full': true,
-                        'border-collapse': true,
-                    },
-                    'thead': {
-                        'text-grey-dark': true,
-                        'bg-black': true,
-                        'border-grey-light': true,
-                        'py-4': true,
-                        'px-6': true,
-                    },
-                    "t-body": {
-                        'bg-grey-darkest': true,
-
-                    },
-                    "t-head-tr": {
-
-                    },
-                    "t-body-tr": {
-                        'stripped-table': true,
-                        'bg-grey-darkest': true,
-                    },
-                    "td": {
-                        'py-4': true,
-                        'px-6': true,
-                        'border-b': true,
-                        'border-grey-light': true,
-                        'text-grey-light': true,
-                    },
-                    "th": {
-                        'py-4': true,
-                        'px-6': true,
-                        'font-bold': true,
-                        'uppercase': true,
-                        'text-sm': true,
-                        'text-grey-dark': true,
-                        'border-b': true,
-                        'border-grey-light': true,
-                    },
-                }
             }
         },
         created: function () {
@@ -91,7 +74,7 @@
         methods: {
             async showListProducts() {
                 const { data } = await CommonRepository.getListProducts();
-                this.list_products = data.list_products;
+                this.rows = data.list_products;
             },
         }
     }
