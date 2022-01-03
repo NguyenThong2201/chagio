@@ -11,7 +11,7 @@
 
 <body>
 <!--/Header-->
-<header id="site-header" class="fixed-top">
+<header id="site-header" class="fixed-top site-header">
     @include('layouts.header')
 </header>
 @yield('content')
@@ -41,7 +41,36 @@
     </script>
     <!-- //move top -->
 </footer><!-- End Footer -->
+<!-- Messenger Plugin chat Code -->
+<div id="fb-root"></div>
 
+<!-- Your Plugin chat code -->
+<div id="fb-customer-chat" class="fb-customerchat">
+</div>
+
+<script>
+    var chatbox = document.getElementById('fb-customer-chat');
+    chatbox.setAttribute("page_id", "106446565229106");
+    chatbox.setAttribute("attribution", "biz_inbox");
+</script>
+
+<!-- Your SDK code -->
+<script>
+    window.fbAsyncInit = function() {
+        FB.init({
+            xfbml            : true,
+            version          : 'v12.0'
+        });
+    };
+
+    (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+</script>
 
 <!-- Template JavaScript -->
 <script src="{{ asset('assets/js/jquery-3.3.1.min.js') }}"></script>
@@ -51,14 +80,12 @@
 <script>
     $(window).on("scroll", function() {
         var scroll = $(window).scrollTop();
-
         if (scroll >= 80) {
             $("#site-header").addClass("nav-fixed");
         } else {
             $("#site-header").removeClass("nav-fixed");
         }
     });
-    //Main navigation Active Class Add Remove
     $(".navbar-toggler").on("click", function() {
         $("header").toggleClass("active");
     });

@@ -5,7 +5,7 @@
     <div class="w3l-bannerhny-content">
         <div class="container">
             <div class="w3l-bannerhny-info">
-                <h3 class="mb-md-5 mb-4">Chuyên Dịch Vụ Thuê Xe <br> Xe 6, 12, 27 chỗ( Uy Tín - Chất Lượng )</h3>
+                <h3 class="mb-md-5 mb-4">Dịch vụ đưa đón khách <a href="tel:0369100758">0369100758</a> <br> Xe 4, 7, 16, 29 chỗ( Uy Tín - Chất Lượng )</h3>
                 <div class="banner-form-w3">
                     <form action="" method="post">
                         <div class="form-style-w3ls">
@@ -19,7 +19,7 @@
                             </div>
                             <div class="form-gd">
                                 <label for="input_from">Loại xe</label>
-                                <select class="form-select" aria-label="Default select example">
+                                <select aria-label="Default select example">
                                     <option selected>Chọn loại xe</option>
                                     <option value="4">Xe 4 chỗ</option>
                                     <option value="7">Xe 7 chỗ</option>
@@ -46,7 +46,7 @@
                                 <b>
                                     <i>Liên hệ nhanh cho</i> Dịch vụ Taxi - Grab 24/7
                                 </b>Điện thoại
-                                <a href="tel:0937241691">0937241691</a>
+                                <a href="tel:0369100758">0369100758</a>
                             </span>
                     </div>
                     <!-- //Request-a-call-form -->
@@ -62,8 +62,7 @@
         <div class="row mb-5">
             <div class="col-lg-6 pe-lg-5">
                 <div class="title-content text-left">
-                    <h6 class="title-subw3hny mb-2"><span>Giới Thiệu</span></h6>
-                    <h3 class="title-w3l">Chuyên dịch vụ đưa đón Quý Khách giá rẻ - uy tín - chất lượng</h3>
+                    <h3 class="title-w3l">DỊCH VỤ TAXI - GRAB <br>XE DU LỊCH <BR> GIÁ RẺ - UY TÍN</h3>
                 </div>
             </div>
             <div class="col-lg-6 mt-lg-0 mt-md-5 mt-4 ps-lg-5 mx-lg-0">
@@ -83,66 +82,11 @@
         </div>
 
         <div class="car-img mx-0 text-center">
-            <img src="assets/images/1.jpg" alt="" class="img-fluid">
+            <img src="{{ 'assets/images/taxi-dong-nai.jpg' }}" alt="" class="img-fluid">
         </div>
 
     </div>
 </section>
-<!--//client-Section-->
-<!--/About-Section-->
-<section id="about" class="w3labout section-bg">
-    <div class="container">
-        <div class="row no-gutters">
-            <div class="content col-xl-5 d-flex align-items-stretch">
-                <div class="content">
-                    <h6 class="title-subw3hny two mb-2"><span>Why Us</span></h6>
-                    <h3 class="title-w3l two">Voluptatem dignissimos provident quasi</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit
-                    </p>
-                    <a href="about.html" class="btn btn-style btn-primary about-btn mt-3"> Read More</a>
-                </div>
-            </div>
-            <div class="col-xl-7 d-flex align-items-stretch">
-                <div class="icon-boxes d-flex flex-column justify-content-center">
-                    <div class="row">
-                        <div class="col-md-6 icon-box">
-                            <i class="fas fa-archway"></i>
-                            <h4>
-                                Auto
-                                Driveaway</h4>
-                            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit eiusmod.</p>
-                        </div>
-                        <div class="col-md-6 icon-box">
-                            <i class="fas fa-taxi"></i>
-                            <h4>
-                                Student
-                                Vehicles</h4>
-                            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit eiusmod.</p>
-                        </div>
-                        <div class="col-md-6 icon-box">
-                            <i class="fas fa-boxes"></i>
-                            <h4>
-                                Closed Carrier
-                                Transport</h4>
-                            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit eiusmod.</p>
-                        </div>
-                        <div class="col-md-6 icon-box">
-                            <i class="fas fa-baby-carriage"></i>
-                            <h4>
-                                Corporate
-                                Relocation</h4>
-                            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit eiusmod.</p>
-                        </div>
-                    </div>
-                </div>
-                <!--//End-content-->
-            </div>
-        </div>
-    </div>
-</section>
-<!--//About-Section-->
-<!--/Counts-Section-->
 <section id="counts" class="w3lcounts">
     <div class="container">
         <div class="row">
@@ -150,31 +94,31 @@
                 <div class="count-box">
                     <i class="fas fa-users"></i>
                     <p class="counter">960</p>
-                    <p>Happy Clients</p>
+                    <p>Lượt Khách</p>
                 </div>
             </div>
 
             <div class="col-lg-3 col-md-6 mt-5 mt-md-0 w3stats_info counter_grid">
                 <div class="count-box">
                     <i class="far fa-images"></i>
-                    <p class="counter">1560</p>
-                    <p>Projects</p>
+                    <p class="counter">560</p>
+                    <p>Chuyến đi</p>
                 </div>
             </div>
 
             <div class="col-lg-3 col-md-6 mt-5 mt-lg-0 w3stats_info counter_grid">
                 <div class="count-box">
                     <i class="fas fa-headset"></i>
-                    <p class="counter">1660</p>
-                    <p>Hours Of Support</p>
+                    <p class="counter">150</p>
+                    <p>Tống Đài Hỗ Trợ</p>
                 </div>
             </div>
 
             <div class="col-lg-3 col-md-6 mt-5 mt-lg-0 w3stats_info counter_grid">
                 <div class="count-box">
                     <i class="fas fa-user-tie"></i>
-                    <p class="counter">860</p>
-                    <p>Hard Workers</p>
+                    <p class="counter">55</p>
+                    <p>Tài Xế</p>
                 </div>
             </div>
 
@@ -190,25 +134,25 @@
             <li class="nav-item col-3">
                 <a class="nav-link active show" data-bs-toggle="tab" data-bs-target="#tab-1">
                     <i class="fas fa-shield-alt"></i>
-                    <h4 class="d-none d-lg-block">Guaranteed Quality</h4>
+                    <h4 class="d-none d-lg-block">Uy Tín - Chất Lượng</h4>
                 </a>
             </li>
             <li class="nav-item col-3">
                 <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-2">
                     <i class="fas fa-spinner"></i>
-                    <h4 class="d-none d-lg-block">Get There Faster</h4>
+                    <h4 class="d-none d-lg-block">Linh Hoạt</h4>
                 </a>
             </li>
             <li class="nav-item col-3">
                 <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-3">
                     <i class="fas fa-hand-holding-usd"></i>
-                    <h4 class="d-none d-lg-block">Lowest Pricing</h4>
+                    <h4 class="d-none d-lg-block">Tiết Kiệm Chi Phí</h4>
                 </a>
             </li>
             <li class="nav-item col-3">
                 <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-4">
                     <i class="fas fa-dungeon"></i>
-                    <h4 class="d-none d-lg-block">Driveaway Specialists</h4>
+                    <h4 class="d-none d-lg-block">Tài Xế Kinh Nghiệm</h4>
                 </a>
             </li>
         </ul>
@@ -217,62 +161,59 @@
             <div class="tab-pane active show" id="tab-1">
                 <div class="row mt-5">
                     <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
-                        <h3>Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h3>
+                        <h3>Dịch Vụ Taxi 24/7 Uy Tín - Chất Lượng</h3>
                         <p class="fst-italic mt-3">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                            magna aliqua.
+                            “Chúng tôi chuyên đáp ứng nhu cầu về giá cả, chất lượng dịch vụ và sự tiện ích cho khách hàng. Giúp khách hàng tiết kiệm 20-50% giá trị chuyến đi so với thông thường.”
                         </p>
                         <ul class="mt-3">
-                            <li><i class="fas fa-check-double"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-                            <li><i class="fas fa-check-double"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
-                            <li><i class="fas fa-check-double"></i> Ullamco laboris nisi ut aliquip ex ea commodo.</li>
+                            <li><i class="fas fa-check-double"></i> An toàn, Sang trọng</li>
+                            <li><i class="fas fa-check-double"></i> Gía trọn gói, không phát sinh</li>
+                            <li><i class="fas fa-check-double"></i> Nền tảng thuê xe 4,7,16 chỗ lớn nhất Việt Nam</li>
                         </ul>
                         <p class="mt-3">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                            Với giá cả cạnh tranh và dịch vụ tài xế chuyên nghiệm. Chúng tôi rất vinh dự khi được phục vụ quý khách.
                         </p>
                     </div>
                     <div class="col-lg-6 order-1 order-lg-2 text-center ps-lg-5">
-                        <img src="assets/images/g1.jpg" alt="" class="img-fluid radius-image">
+                        <img src="{{ 'assets/images/thue-xe-gia-re-247.jpg' }}" alt="" class="img-fluid radius-image">
                     </div>
                 </div>
             </div>
             <div class="tab-pane" id="tab-2">
                 <div class="row mt-5">
                     <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
-                        <h3>Neque exercitationem debitis soluta quos debitis quo mollitia officia est</h3>
+                        <h3>Với 10.000 Đầu Xe Liên Kết Và Phân Phối Toàn Quốc, Gọi Là Có Xe. Chúng Tôi Luôn Linh Động Đáp Ứng Nhu Cầu Di Chuyến Của Quý Khách</h3>
                         <p class="fst-italic mt-3">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                            magna aliqua.
+                            “Quý khách cứ gọi là sẽ có xe đưa đón”
                         </p>
                         <ul class="mt-3">
-                            <li><i class="fas fa-check-double"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-                            <li><i class="fas fa-check-double"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
-                            <li><i class="fas fa-check-double"></i> Ullamco laboris nisi ut aliquip ex ea commodo.</li>
+                            <li><i class="fas fa-check-double"></i> Lựa chọn xe : 4, 7, 12, 16, 24, 29, 30, 35, 45 chỗ</li>
+                            <li><i class="fas fa-check-double"></i> Gọi cho chúng tôi : <a href="tel:0369100758">0369100758</a></li>
+                            <li><i class="fas fa-check-double"></i> Tài xế sẽ đên đón quý khách ngay</li>
                         </ul>
                         <p class="mt-3">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                            Đội ngũ tài xế sẽ thực hiện đúng tiêu chuẩn 5k: Khẩu trang – Khử khuẩn – Khoảng cách – Không tập trung – Khai báo Y tế nhằm đảm bảo an toàn mùa dịch.
                         </p>
                     </div>
                     <div class="col-lg-6 order-1 order-lg-2 text-center ps-lg-5">
-                        <img src="assets/images/g2.jpg" alt="" class="img-fluid radius-image">
+                        <img src="assets/images/xe-taxi-gia-re.jpg" alt="" class="img-fluid radius-image">
                     </div>
                 </div>
             </div>
             <div class="tab-pane" id="tab-3">
                 <div class="row mt-5">
                     <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
-                        <h3>Voluptatibus commodi ut accusamus ea repudiandae ut autem dolor ut assumenda</h3>
+                        <h3>Chuyên Cung Cấp Xe 4-7-16-29-45 Chỗ Có Tài Xế Vận Chuyển, Du Lịch, Trọn Gói Giá Rẻ Và Uy Tín</h3>
                         <p class="fst-italic mt-3">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                            magna aliqua.
+                            “Chuyên Cung Cấp Xe Du Lịch Giá Rẻ Trên Toàn Lãnh Thổ Việt Nam”
                         </p>
                         <ul class="mt-3">
-                            <li><i class="fas fa-check-double"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-                            <li><i class="fas fa-check-double"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
-                            <li><i class="fas fa-check-double"></i> Ullamco laboris nisi ut aliquip ex ea commodo.</li>
+                            <li><i class="fas fa-check-double"></i> Có tài xế riêng cho từng xe. Giá cả siêu rẻ</li>
+                            <li><i class="fas fa-check-double"></i> Đi về quê, Du lịch, Sân bay, bệnh viện ... giá siêu cạnh tranh</li>
+                            <li><i class="fas fa-check-double"></i> Đưa đón tận nơi</li>
                         </ul>
                         <p class="mt-3">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                            Chỉ 10.000 vnd /km Bao Gồm : XE + Nhiên Liệu + Tài Xế + Phí Cầu Đường + Khăn, Nước
                         </p>
 
                     </div>
@@ -284,22 +225,21 @@
             <div class="tab-pane" id="tab-4">
                 <div class="row mt-5">
                     <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
-                        <h3>Omnis fugiat ea explicabo sunt dolorum asperiores sequi inventore rerum</h3>
+                        <h3>Đội ngũ tài xê trên 10 năm kinh nghiệm đường dài.</h3>
                         <p class="fst-italic mt-3">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                            magna aliqua.
+                            Rật vinh hạnh khi được phục vụ quý khách
                         </p>
                         <ul class="mt-3">
-                            <li><i class="fas fa-check-double"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-                            <li><i class="fas fa-check-double"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
-                            <li><i class="fas fa-check-double"></i> Ullamco laboris nisi ut aliquip ex ea commodo.</li>
+                            <li><i class="fas fa-check-double"></i> Đội ngũ tài xế sẽ thực hiện đúng tiêu chuẩn 5k trong mua dịch</li>
+                            <li><i class="fas fa-check-double"></i> Đưa đón đúng giờ hẹn của quý khách</li>
+                            <li><i class="fas fa-check-double"></i> Thân thiện phúc vụ khăn nước đầy đủ cho quý khách</li>
                         </ul>
                         <p class="mt-3">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                            Đội ngũ tài xế chuyên nghiệp
                         </p>
                     </div>
                     <div class="col-lg-6 order-1 order-lg-2 text-center ps-lg-5">
-                        <img src="assets/images/g5.jpg" alt="" class="img-fluid radius-image">
+                        <img src="{{ 'assets/images/tai-xe-taxi-247.jpg' }}" alt="" class="img-fluid radius-image">
                     </div>
                 </div>
             </div>
@@ -312,8 +252,7 @@
 <section id="services" class="services section-bg w3lpricing">
     <div class="container">
         <div class="section-title">
-            <h6 class="title-subw3hny two mb-2"><span>What We Offer</span></h6>
-            <h3 class="title-w3l two mb-4">High Quality Services</h3>
+            <h3 class="title-w3l two mb-4">Dịch Vụ Xe 24/7</h3>
         </div>
 
         <div class="row">
@@ -324,8 +263,8 @@
                             <span class="fas fa-percent"></span>
                         </div>
                         <div class="info">
-                            <h4><a href="#url">Fixed Rates</a></h4>
-                            <p class="mt-3">Lorem ipsum dolor sit amet consectetur ipsum elit. </p>
+                            <h4><a href="#url">Về Quê Tỉnh Lẻ</a></h4>
+                            <p class="mt-3 text-dark">Đưa đón Quý Khách chi phí rẻ về quê dịp lễ tết 24/7</p>
                         </div>
                     </div>
 
@@ -338,9 +277,8 @@
                             <span class="fas fa-exchange-alt"></span>
                         </div>
                         <div class="info">
-                            <h4><a href="#url">
-                                    Reliable Transfers</a></h4>
-                            <p class="mt-3">Lorem ipsum dolor sit amet consectetur ipsum elit. </p>
+                            <h4><a href="#url">Đưa Đón Sân Bay</a></h4>
+                            <p class="mt-3 text-dark">Chuyên đưa rước Sân Bay - Ga Tàu - Bến Xe - Nhà Hàng</p>
                         </div>
 
                     </div>
@@ -354,8 +292,8 @@
                             <span class="fas fa-user-friends"></span>
                         </div>
                         <div class="info">
-                            <h4><a href="#url">Free Cancellation</a></h4>
-                            <p class="mt-3">Lorem ipsum dolor sit amet consectetur ipsum elit. </p>
+                            <h4><a href="#url">Phục vụ cưới hỏi</a></h4>
+                            <p class="mt-3 text-dark">Chuyên xe đám cưới các tỉnh thành </p>
                         </div>
                     </div>
 
@@ -368,9 +306,8 @@
                             <span class="fas fa-car"></span>
                         </div>
                         <div class="info">
-                            <h4><a href="#url">
-                                    Quality Vehicles</a></h4>
-                            <p class="mt-3">Lorem ipsum dolor sit amet consectetur ipsum elit. </p>
+                            <h4><a href="#url">Đưa Rước Bệnh Viện</a></h4>
+                            <p class="mt-3 text-dark">Phục vụ nhu cầu đi lại của bệnh nhân và người nhà </p>
                         </div>
                     </div>
 
@@ -383,10 +320,8 @@
                             <span class="fas fa-trophy"></span>
                         </div>
                         <div class="info">
-                            <h4><a href="#url">
-
-                                    Award winning</a></h4>
-                            <p class="mt-3">Lorem ipsum dolor sit amet consectetur ipsum elit. </p>
+                            <h4><a href="#url">Du Lịch</a></h4>
+                            <p class="mt-3 text-dark">Nhận đưa rước du lịch gia đình - nhóm bạn</p>
                         </div>
                     </div>
 
@@ -399,9 +334,8 @@
                             <span class="fas fa-headset"></span>
                         </div>
                         <div class="info">
-                            <h4><a href="#url">
-                                    Online Support 24/7</a></h4>
-                            <p class="mt-3">Lorem ipsum dolor sit amet consectetur ipsum elit. </p>
+                            <h4><a href="#url">Hỗ Trợ Toàn Quốc</a></h4>
+                            <p class="mt-3 text-dark">Hãy liên hệ cho chúng tôi : <a href="tel:0369100758">0369100758</a></p>
                         </div>
                     </div>
 
@@ -411,218 +345,11 @@
     </div>
 </section>
 <!--//Services-Section -->
-<!--/-->
-<!--/Team-Section-->
-<section id="team" class="w3l-team">
-    <div class="container">
-        <div class="section-title">
-            <h6 class="title-subw3hny mb-2"><span>Talented Team</span></h6>
-            <h3 class="title-w3l"> Our Experts</h3>
-        </div>
-
-        <div class="row team-row">
-            <!--start-team member -->
-            <div class="col-lg-4 col-sm-6 team-wrap mt-lg-5 mt-4">
-                <div class="team-member last text-center">
-                    <div class="team-img">
-                        <img src="assets/images/team1.jpg" alt="" class="img-fluid radius-image">
-                        <div class="overlay">
-                            <div class="team-details text-center">
-                                <p>
-                                    Our web design team will spend time with our digital marketing team.
-                                </p>
-                                <div class="socials mt-4">
-                                    <a href="#url"><i class="fab fa-facebook-f"></i></a>
-                                    <a href="#url"><i class="fab fa-twitter"></i></a>
-                                    <a href="#url"><i class="fab fa-instagram"></i></a>
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <a href="#team">
-                        <h6 class="team-title">Sarah Jhonson</h6>
-                    </a>
-                    <p>Founder</p>
-                </div>
-            </div>
-            <!-- end team member -->
-
-            <div class="col-lg-4 col-sm-6 team-wrap mt-lg-5 mt-4">
-                <div class="team-member last text-center">
-                    <div class="team-img">
-                        <img src="assets/images/team2.jpg" alt="" class="img-fluid radius-image">
-                        <div class="overlay">
-                            <div class="team-details text-center">
-                                <p>
-                                    Our web design team will spend time with our digital marketing team.
-                                </p>
-                                <div class="socials mt-4">
-                                    <a href="#url"><i class="fab fa-facebook-f"></i></a>
-                                    <a href="#url"><i class="fab fa-twitter"></i></a>
-                                    <a href="#url"><i class="fab fa-instagram"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <a href="#team">
-                        <h6 class="team-title">Emma Susan</h6>
-                    </a>
-                    <p>Manager</p>
-                </div>
-            </div>
-            <!-- end team member -->
-            <div class="col-lg-4 col-sm-6 team-wrap mt-lg-5 mt-4">
-                <div class="team-member last text-center">
-                    <div class="team-img">
-                        <img src="assets/images/team4.jpg" alt="" class="img-fluid radius-image">
-                        <div class="overlay">
-                            <div class="team-details text-center">
-                                <p>
-                                    Our web design team will spend time with our digital marketing team.
-                                </p>
-                                <div class="socials mt-4">
-                                    <a href="#url"><i class="fab fa-facebook-f"></i></a>
-                                    <a href="#url"><i class="fab fa-twitter"></i></a>
-                                    <a href="#url"><i class="fab fa-instagram"></i></a>
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <a href="#team">
-                        <h6 class="team-title">William Anderson</h6>
-                    </a>
-                    <p>Advisor</p>
-
-                </div>
-            </div>
-            <!-- end team member -->
-
-        </div>
-
-    </div>
-</section>
-<!--//Team-Section-->
-<!--/blog-Section-->
-<section id="blog" class="w3l-blog section-bg">
-    <div class="container">
-        <div class="section-title">
-            <h6 class="title-subw3hny two mb-2"><span>Latest News</span></h6>
-            <h3 class="title-w3l two">Blog Posts</h3>
-        </div>
-        <div class="row pb-5 w3l-courses">
-            <div class="col-md-12 mx-auto pb-lg-5 pb-3">
-                <div class="owl-two owl-carousel owl-theme row">
-                    <div class="item col-lg-4 col-md-6 mt-lg-5 mt-4">
-                        <div class="card">
-                            <div class="card-header p-0 position-relative">
-                                <a href="#cardblog" class="zoom d-block">
-                                    <img class="card-img-bottom d-block" src="assets/images/g1.jpg" alt="Card image cap">
-                                </a>
-                            </div>
-                            <div class="card-body course-details">
-                                <a href="#cardblog" class="course-desc">Lorem ipsum dolor sit
-                                </a>
-                                <p class="mt-3">Lorem ipsum dolor sit, amet consectetur elit consectetur . </p>
-                                <div class="blog-bottom-info">
-
-                                    <div class="course-meta">
-                                        <div class="meta-item course-lesson">
-                                            <span class="fas fa-heart"></span>
-                                            <span class="meta-value"> 24 </span>
-                                        </div>
-                                        <div class="meta-item course-students">
-                                            <span class="fas fa-eye"></span>
-                                            <span class="meta-value"> 125 </span>
-                                        </div>
-                                        <div class="meta-item course-students">
-                                            <span class="fas fa-calendar-week"></span>
-                                            <span class="meta-value"> 13.07.2021 </span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="item col-lg-4 col-md-6 mt-lg-5 mt-4">
-                        <div class="card">
-                            <div class="card-header p-0 position-relative">
-                                <a href="#cardblog" class="zoom d-block">
-                                    <img class="card-img-bottom d-block" src="assets/images/g2.jpg" alt="Card image cap">
-                                </a>
-
-                            </div>
-                            <div class="card-body course-details">
-                                <a href="#cardblog" class="course-desc">Lorem ipsum dolor sit
-                                </a>
-                                <p class="mt-3">Lorem ipsum dolor sit, amet consectetur elit consectetur . </p>
-                                <div class="blog-bottom-info">
-
-                                    <div class="course-meta">
-                                        <div class="meta-item course-lesson">
-                                            <span class="fas fa-heart"></span>
-                                            <span class="meta-value"> 24 </span>
-                                        </div>
-                                        <div class="meta-item course-students">
-                                            <span class="fas fa-eye"></span>
-                                            <span class="meta-value"> 125 </span>
-                                        </div>
-                                        <div class="meta-item course-students">
-                                            <span class="fas fa-calendar-week"></span>
-                                            <span class="meta-value"> 23.07.2021 </span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="item col-lg-4 col-md-6 mt-lg-5 mt-4">
-                        <div class="card">
-                            <div class="card-header p-0 position-relative">
-                                <a href="#cardblog" class="zoom d-block">
-                                    <img class="card-img-bottom d-block" src="assets/images/g3.jpg" alt="Card image cap">
-                                </a>
-                            </div>
-                            <div class="card-body course-details">
-                                <a href="#cardblog" class="course-desc">Lorem ipsum dolor sit
-                                </a>
-                                <p class="mt-3">Lorem ipsum dolor sit, amet consectetur elit consectetur . </p>
-                                <div class="blog-bottom-info">
-
-                                    <div class="course-meta">
-                                        <div class="meta-item course-lesson">
-                                            <span class="fas fa-heart"></span>
-                                            <span class="meta-value"> 24 </span>
-                                        </div>
-                                        <div class="meta-item course-students">
-                                            <span class="fas fa-eye"></span>
-                                            <span class="meta-value"> 125 </span>
-                                        </div>
-                                        <div class="meta-item course-students">
-                                            <span class="fas fa-calendar-week"></span>
-                                            <span class="meta-value"> 25.07.2021 </span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!--//Team-Section-->
 <!--/Portfolio-Section -->
 <section id="portfolio" class="portfolio w3l-gallery">
     <div class="container">
         <div class="section-title">
-            <h6 class="title-subw3hny mb-2"><span>Our Gallery</span></h6>
-            <h3 class="title-w3l mb-2"> Recent Deliveries</h3>
+            <h3 class="title-w3l mb-2"> Hình Ảnh Xe Chúng Tôi</h3>
         </div>
 
         <!--/grids-grids-->
@@ -630,7 +357,7 @@
             <li>
                 <div class="w3_agile_portfolio_grid">
                     <a href="#">
-                        <img src="assets/images/g1.jpg" alt=" " class="img-fluid radius-image" />
+                        <img src="assets/images/xe-dich-vu.jpg" alt=" " class="img-fluid radius-image" />
                         <div class="w3layouts_news_grid_pos">
                             <div class="wthree_text">
                                 <h3><i class="fas fa-search"></i></h3>
@@ -640,7 +367,7 @@
                 </div>
                 <div class="w3_agile_portfolio_grid mt-4">
                     <a href="#">
-                        <img src="assets/images/g2.jpg" alt=" " class="img-fluid radius-image" />
+                        <img src="assets/images/xe-taxi-gia-re.jpg" alt=" " class="img-fluid radius-image" />
                         <div class="w3layouts_news_grid_pos">
                             <div class="wthree_text">
                                 <h3><i class="fas fa-search"></i></h3>
@@ -713,17 +440,14 @@
                             <div class="testi-des">
                                 <i class="fas fa-quote-left"></i>
                                 <div class="peopl align-self">
-                                    <h3>Dennis wilson</h3>
+                                    <h3>Mục Tiêu</h3>
                                 </div>
                             </div>
                             <blockquote>
-                                Lorem ipsum dolor sit amet int consectetur adipisicing elit. Velita beatae
-                                laudantium Quas minima sunt natus tempore, maiores aliquid modi felis vitae
-                                facere aperiam sequi optio lacinia id ipsum non velit, culpa.
-                                voluptate rem ullam dolore nisi est quasi, doloribus tempora.
+                                Mang lại dịch vụ đưa đón tốt nhất với chi phí rẻ nhất nhưng vẫn luôn mang lại cho quý khách sự an toàn tiện lợi.
                             </blockquote>
                             <ul class="social-media-test m-0 mt-4 p-0">
-                                <li><a href="#facebook" class="facebook"><span class="fab fa-facebook-f"></span></a></li>
+                                <li><a href="https://www.facebook.com/D%E1%BB%8Bch-V%E1%BB%A5-Taxi-Grab-Gi%C3%A1-R%E1%BA%BB-2424-106446565229106" class="facebook"><span class="fab fa-facebook-f"></span></a></li>
                                 <li><a href="#twitter" class="twitter"><span class="fab fa-twitter"></span></a>
                                 </li>
                                 <li><a href="#instagram" class="instagram"><span class="fab fa-instagram"></span></a>
@@ -739,98 +463,12 @@
     </div>
 </section>
 <!--//Testimonials/Section-->
-<!--/Pricing-Section-->
-<section id="pricing" class="w3lpricing section-bg">
-    <div class="container">
-        <div class="section-title">
-            <h6 class="title-subw3hny two mb-2"><span>Our Plans</span></h6>
-            <h3 class="title-w3l two mb-2">Pricing Plans</h3>
-        </div>
-        <div class="row mt-lg-4 mt-2">
-            <div class="col-lg-3 col-md-6">
-                <div class="box">
-                    <h3>Free Trail</h3>
-                    <h4><sup>$</sup>0<span> / Per Day</span></h4>
-                    <ul>
-                        <li>
-                            Air Conditioning</li>
-                        <li> Audio input</li>
-                        <li> DVD Video System</li>
-                        <li>All Wheel drive</li>
-                        <li class="na">USB input</li>
-                    </ul>
-                    <div class="btn-wrap">
-                        <a href="#" class="btn-buy btn btn-style btn-primary">Buy Now</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-lg-3 col-md-6 mt-4 mt-md-0">
-                <div class="box featured">
-                    <h3>Business</h3>
-                    <h4><sup>$</sup>49<span> / Per Day</span></h4>
-                    <ul>
-                        <li>
-                            Air Conditioning</li>
-                        <li> Audio input</li>
-                        <li> DVD Video System</li>
-                        <li>All Wheel drive</li>
-                        <li class="na">USB input</li>
-                    </ul>
-                    <div class="btn-wrap">
-                        <a href="#" class="btn-buy btn btn-style btn-primary">Buy Now</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-lg-3 col-md-6 mt-4 mt-lg-0">
-                <div class="box">
-                    <h3>Personal</h3>
-                    <h4><sup>$</sup>69<span> / Per Day</span></h4>
-                    <ul>
-                        <li>
-                            Air Conditioning</li>
-                        <li> Audio input</li>
-                        <li> DVD Video System</li>
-                        <li>All Wheel drive</li>
-                        <li>USB input</li>
-                    </ul>
-                    <div class="btn-wrap">
-                        <a href="#" class="btn-buy btn btn-style btn-primary">Buy Now</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-6 mt-4 mt-md-0">
-                <div class="box">
-                    <h3>Travel</h3>
-                    <h4><sup>$</sup>99<span> / Per Day</span></h4>
-                    <ul>
-                        <li>
-                            Air Conditioning</li>
-                        <li> Audio input</li>
-                        <li> DVD Video System</li>
-                        <li>All Wheel drive</li>
-                        <li class="na">USB input</li>
-                    </ul>
-                    <div class="btn-wrap">
-                        <a href="#" class="btn-buy btn btn-style btn-primary">Buy Now</a>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-
-    </div>
-</section>
-<!--/Pricing-Section-->
 <!--/contact-->
 <section id="contact" class="contact">
     <div class="container">
         <div class="section-title">
-            <h6 class="title-subw3hny mb-2"><span>Contact Us</span></h6>
-            <h3 class="title-w3l mb-2">Get In Touch With Us</h3>
-            <p class="w3conatact-p mb-4">Start working with Us that can provide everything you need to generate awareness, drive traffic, connect.
-                We guarantee that you’ll be able to have any issue resolved within 24 hours.</p>
+            <h3 class="title-w3l mb-2">ĐỂ LẠI LỜI NHẮN</h3>
+            <p class="w3conatact-p mb-4">Chúng tôi sẽ liên lạc lại cho bạn trong thời gian nhanh nhất có thế</p>
         </div>
         <div class="row">
             <div class="col-lg-5 pe-lg-5">
@@ -842,8 +480,8 @@
                                 <i class="fas fa-map-marker-alt"></i>
                             </div>
                             <div class="cont-right">
-                                <h6>Company Address</h6>
-                                <p>Car Transko,#2214 cravel street, NY - 34336.</p>
+                                <h6>Địa Chỉ</h6>
+                                <p>Đ. Số 2, Quảng Tiến, Trảng Bom, Đồng Nai</p>
                             </div>
                         </div>
                         <div class="cont-top margin-up" data-aos="fade-up"
@@ -852,9 +490,8 @@
                                 <i class="fas fa-phone-alt"></i>
                             </div>
                             <div class="cont-right">
-                                <h6>Call Us</h6>
-                                <p><a href="tel:+1(21) 343 5677">+1(21) 343 5677</a></p>
-                                <p><a href="tel:+1(21) 343 5678">+1(21) 343 5678</a></p>
+                                <h6>LIÊN HỆ</h6>
+                                <p><a href="tel:0369100758">0369100758</a></p>
                             </div>
                         </div>
                         <div class="cont-top margin-up" data-aos="fade-up"
@@ -863,9 +500,8 @@
                                 <i class="far fa-envelope"></i>
                             </div>
                             <div class="cont-right">
-                                <h6>Email Us</h6>
-                                <p><a href="mailto:example@mail.com" class="mail">example@mail.com</a></p>
-                                <p><a href="mailto:example@mail2.com" class="mail">example@mail2.com</a></p>
+                                <h6>Email</h6>
+                                <p><a href="mailto:nbthong2201@mail.com" class="mail">nbthong2201@mail.com</a></p>
                             </div>
                         </div>
 
@@ -876,23 +512,23 @@
 
             <div class="col-lg-7 mt-lg-0 mt-5" data-aos="fade-up"
                  data-aos-duration="3000">
-                <form action="https://sendmail.w3layouts.com/submitForm" method="post" role="form" class="php-email-form">
+                <form action="#" method="post" role="form" class="php-email-form">
                     <div class="row">
                         <div class="col form-group">
-                            <input type="text" class="form-control" name="w3lName" id="w3lName" placeholder="Name" required="">
+                            <input type="text" class="form-control" name="w3lName" id="w3lName" placeholder="Tên" required="">
                         </div>
                         <div class="col form-group">
                             <input type="email" class="form-control" name="w3lSender" id="w3lSender" placeholder="Email" required="">
                         </div>
                     </div>
                     <div class="form-group">
-                        <input type="text" class="form-control" name="w3lSubject" id="w3lSubject" placeholder="Subject" required="">
+                        <input type="text" class="form-control" name="w3lSubject" id="w3lSubject" placeholder="Tiêu đề" required="">
                     </div>
                     <div class="form-group">
-                        <textarea name="w3lMessage" class="form-control" id="w3lMessage" placeholder="Message" required=""></textarea>
+                        <textarea name="w3lMessage" class="form-control" id="w3lMessage" placeholder="Nội dung" required=""></textarea>
                     </div>
                     <div class="w3lhny-submit text-right">
-                        <button type="submit" class="btn btn-primary btn-style ">Send Message</button>
+                        <button type="submit" class="btn btn-primary btn-style ">Gửi</button>
                     </div>
 
                 </form>
@@ -900,7 +536,7 @@
 
         </div>
         <div class="map-iframe mt-5 pt-lg-4">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d317718.69319292053!2d-0.3817765050863085!3d51.528307984912544!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8a00baf21de75%3A0x52963a5addd52a99!2sLondon%2C+UK!5e0!3m2!1sen!2spl!4v1562654563739!5m2!1sen!2spl" width="100%" height="400" frameborder="0" style="border: 0px;" allowfullscreen=""></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52701.771454572605!2d106.9911576519555!3d10.957133139483192!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3174e6a909993c4d%3A0x696b1a0032291ebd!2sTrang%20Bom%20district%20post!5e0!3m2!1sen!2s!4v1640531163959!5m2!1sen!2s" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
         </div>
     </div>
 </section>

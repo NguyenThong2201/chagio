@@ -7032,7 +7032,7 @@ fieldset:disabled .btn {
 }
 
 .fixed-top {
-    background-color: #f35656;
+    background-color: #f7941d;
     position: fixed;
     top: 0;
     right: 0;
@@ -17910,7 +17910,6 @@ html {
     margin: 0;
     padding: 0;
     background: var(--bg-color);
-    color: var(--font-color);
     font-family: 'Open Sans', sans-serif;
 
 }
@@ -17981,7 +17980,6 @@ p {
     padding: 0;
     font-size: 16px;
     line-height: 26px;
-    color: var(--font-color);
     font-family: 'Open Sans', sans-serif;
 
 }
@@ -18707,7 +18705,6 @@ a.dropdown-item.active {
     .search-header input {
 
         padding: 12px 15px;
-        color: var(--font-color);
     }
 
     .search-header .btn {
@@ -18813,7 +18810,6 @@ select {
     outline: none;
     font-size: 16px;
     border: none;
-    color: var(--font-color);
     border: 1px solid var(--border-color-light);
     background: var(--bg-grey);
     padding: 12px 14px;
@@ -19121,13 +19117,13 @@ section {
 }
 
 .tabs .nav-link:hover {
-    color: var(--primary-color);
+    color: #ff3a3a;
 }
 
 .tabs .nav-link.active {
-    background: var(--primary-color);
+    background: #ffe73a;
     color: #fff;
-    border-color: var(--primary-color);
+    border-color: #6e9cf1;
 }
 
 @media (max-width: 768px) {
@@ -19211,7 +19207,6 @@ section {
 
 .box-wrap h5 {
     font-weight: 400;
-    color: var(--font-color);
     font-size: 20px;
     opacity: .8;
 }
@@ -19580,7 +19575,6 @@ section {
 
 .w3lpricing .box ul li {
     padding-bottom: 16px;
-    color: var(--font-color);
     font-size: 16px;
 }
 
@@ -19596,7 +19590,6 @@ section {
 
 .w3lpricing .box ul .na {
     text-decoration: line-through;
-    color: var(--font-color);
 }
 
 .w3lpricing .box .btn-wrap {
@@ -19900,7 +19893,6 @@ ul.gallery_agile li {
 .w3l-clients-1 blockquote {
     font-size: 17px;
     line-height: 27px;
-    color: var(--font-color);
 }
 
 .w3l-clients-1 .testi-des i {
@@ -20054,7 +20046,6 @@ ul.gallery_agile li {
     font-size: 16px;
     line-height: 26px;
     margin-top: 3px;
-    color: var(--font-color);
 }
 
 .contact.contact .php-email-form {
@@ -20094,7 +20085,6 @@ ul.gallery_agile li {
 .contact textarea {
     background: var(--bg-color);
     border: 1px solid var(--border-color-light);
-    color: var(--font-color);
     font-size: 16px;
     padding: 12px 18px;
     line-height: 28px;
@@ -20237,7 +20227,6 @@ ul.gallery_agile li {
 }
 
 #footer .footer-top .footer-links ul a {
-    color: var(--font-color);
     transition: 0.3s;
     display: inline-block;
     line-height: 1;
@@ -20269,7 +20258,6 @@ ul.gallery_agile li {
 #footer .footer-newsletter form input[type="email"] {
     background: var(--bg-color);
     border: 1px solid var(--bg-lightgrey-color);
-    color: var(--font-color);
     font-size: 16px;
     padding: 12px 18px;
     line-height: 28px;
@@ -20314,7 +20302,7 @@ ul.gallery_agile li {
     display: none;
     position: fixed;
     bottom: 20px;
-    right: 20px;
+    right: 100px;
     z-index: 99;
     border: none;
     outline: none;
